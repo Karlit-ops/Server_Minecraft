@@ -11,20 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 0
+  lastteleport: 1752874160212
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1752872766161
+  logout: 1752874269601
   login: 1752873453899
 money: '0'
 last-account-name: Ruby_HoshinoSan
 logoutlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
   world-name: world
-  x: 1010.4233474592592
-  y: 67.0
-  z: 149.27414845262928
-  yaw: -37.65032958984375
-  pitch: 85.65007019042969
+  x: 994.3574103090623
+  y: 66.0
+  z: 212.14477849146508
+  yaw: 104.39997100830078
+  pitch: 42.299991607666016
+lastlocation:
+  world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
+  world-name: world
+  x: 979.4930444049912
+  y: 1.0
+  z: 128.51570297200547
+  yaw: -25.795013427734375
+  pitch: 5.549921989440918
+nickname: NICOLASST
