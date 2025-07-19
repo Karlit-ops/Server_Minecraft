@@ -205,3 +205,31 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [15:04:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /killall hostile
 [15:04:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /killall entities
 [15:06:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[15:09:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /killall entities
+[15:09:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo
+[15:09:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /udo
+[15:09:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo
+[15:09:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo 7
+[15:09:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo 7
+[15:10:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo 8
+[15:10:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /spec
+[15:10:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /creative
+[15:11:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //replace lava air 50
+[15:11:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //replace lava air
+[15:11:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //replace air lava
+[15:11:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /spec
+[15:11:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /creative
+[15:12:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //replace air lava
+[15:12:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo
+[15:12:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //replace lava air
+[15:13:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack 20
+[15:14:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set oak_planks
+[15:15:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //replace glowstone glass
+[15:16:56] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set glowstone
+[15:17:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /killall hostile
+[15:21:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed 2.5
+[15:24:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[15:25:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[15:25:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[15:25:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set glass
+[15:25:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set glass
