@@ -233,3 +233,18 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [15:25:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [15:25:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set glass
 [15:25:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set glass
+[15:27:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[15:27:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /heal
+[15:27:31] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /feed
+[15:27:37] [Server thread/INFO]: Ruby_HoshinoSan fell from a high place
+[15:28:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[15:28:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ec
+[15:28:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[15:29:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant efficiency 15
+[15:29:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant fortune 20
+[15:29:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant unbreaking 15
+[15:29:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[15:30:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[15:32:11] [Server thread/INFO]: Ruby_HoshinoSan was slain by Zombie
+[15:32:27] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[15:32:27] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
