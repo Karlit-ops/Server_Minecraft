@@ -225,3 +225,30 @@ expected <block end>, but found '<scalar>'
 [16:31:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
 [16:32:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [16:32:01] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[16:33:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[16:34:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack 50
+[16:34:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /tps
+[16:35:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[16:35:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[16:35:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[16:35:54] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[16:35:54] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[16:35:57] [User Authenticator #1/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[16:35:57] [Server thread/INFO]: Ruby_HoshinoSan[/127.190.148.25:41369] logged in with entity id 4647 at ([world]959.3754837438473, 255.91193344478583, 102.42730672644353)
+[16:35:57] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[16:36:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[16:37:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[16:37:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[16:39:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo 5
+[16:39:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack 50
+[16:40:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /tps
+[16:40:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //stack 50
+[16:41:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[16:41:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[16:41:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /undo all
+[16:42:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo all
+[16:42:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  10
+[16:42:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  5
+[16:42:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  3
+[16:42:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  2
+[16:43:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  1
