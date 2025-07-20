@@ -252,3 +252,26 @@ expected <block end>, but found '<scalar>'
 [16:42:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  3
 [16:42:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  2
 [16:43:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo  1
+[16:43:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /redo
+[16:43:06] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[16:43:06] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[16:43:11] [User Authenticator #2/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[16:43:11] [Server thread/INFO]: Ruby_HoshinoSan[/127.190.148.25:32837] logged in with entity id 5767 at ([world]1020.162795613792, 143.6591711402406, 207.38782988219162)
+[16:43:11] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[16:43:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /tab errors
+[16:43:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /pl
+[16:44:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[16:44:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[16:45:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[16:46:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /version
+[16:49:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //copy
+[16:49:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //paste
+[16:51:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set barrier
+[16:51:39] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[16:51:39] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[16:51:41] [User Authenticator #3/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[16:51:41] [Server thread/INFO]: Ruby_HoshinoSan[/127.190.148.25:33125] logged in with entity id 9546 at ([world]914.0421682052165, -4.964841792003199, 276.2337460144966)
+[16:51:41] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[16:51:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm spectator
+[16:53:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[16:53:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
