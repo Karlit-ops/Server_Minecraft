@@ -1,203 +1,227 @@
-[01:03:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[01:03:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[01:03:41] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:03:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[01:03:42] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[16:22:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[16:22:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[16:22:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:22:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 14 plugins
+[16:22:54] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (6.14.4)
-[01:03:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
- - Essentials (2.21.2-dev+31-9ef4fc3), EssentialsChat (2.21.2-dev+31-9ef4fc3), EssentialsSpawn (2.21.2-dev+31-9ef4fc3), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1129;f295594), Geyser-Spigot (2.8.2-SNAPSHOT), LuckPerms (5.5.9), PlaceholderAPI (2.11.6), PlayerKits2 (1.18.2), SkinsRestorer (15.7.7), TAB (5.2.4), Vault (1.7.3-b131)
-[01:03:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:03:50] [ServerMain/INFO]: Loaded 1370 recipes
-[01:03:50] [ServerMain/INFO]: Loaded 1481 advancements
-[01:03:50] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[01:03:50] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 220.5ms
-[01:03:50] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[01:03:50] [Server thread/INFO]: Loading properties
-[01:03:50] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[01:03:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:03:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:03:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:03:51] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[01:03:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[01:03:52] [Server thread/INFO]: Default game type: SURVIVAL
-[01:03:52] [Server thread/INFO]: Generating keypair
-[01:03:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:03:52] [Server thread/INFO]: Using epoll channel type
-[01:03:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:03:52] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:03:53] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
-[01:03:53] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:03:53] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[01:03:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+31-9ef4fc3
-[01:03:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[01:03:53] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
-[01:03:54] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[01:03:54] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[01:03:54] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+31-9ef4fc3
-[01:03:54] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.2
-[01:03:54] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+31-9ef4fc3
-[01:03:54] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
-[01:03:54] [Server thread/WARN]: 
+[16:22:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - Essentials (2.21.2-dev+31-9ef4fc3), EssentialsChat (2.21.2-dev+31-9ef4fc3), EssentialsSpawn (2.21.2-dev+31-9ef4fc3), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1129;f295594), Geyser-Spigot (2.8.2-SNAPSHOT), LuckPerms (5.5.9), PlaceholderAPI (2.11.6), PlayerKits2 (1.18.2), SkinsRestorer (15.7.7), TAB (5.2.4), Vault (1.7.3-b131), ViaBackwards (5.4.1), ViaVersion (5.4.1)
+[16:22:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:22:59] [ServerMain/INFO]: Loaded 1370 recipes
+[16:22:59] [ServerMain/INFO]: Loaded 1481 advancements
+[16:22:59] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[16:22:59] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 194.7ms
+[16:23:00] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[16:23:00] [Server thread/INFO]: Loading properties
+[16:23:00] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[16:23:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:23:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:23:00] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:23:00] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[16:23:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:23:01] [Server thread/INFO]: Default game type: SURVIVAL
+[16:23:01] [Server thread/INFO]: Generating keypair
+[16:23:01] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:23:01] [Server thread/INFO]: Using epoll channel type
+[16:23:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:23:01] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[16:23:02] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.1
+[16:23:02] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.1 is now loaded. Registering protocol transformers and injecting...
+[16:23:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:23:02] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:23:03] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[16:23:03] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[16:23:03] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
+[16:23:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:23:04] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:23:04] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+31-9ef4fc3
+[16:23:04] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[16:23:04] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.2-SNAPSHOT
+[16:23:04] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[16:23:04] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[16:23:04] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+31-9ef4fc3
+[16:23:04] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+[16:23:04] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.2
+[16:23:04] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+31-9ef4fc3
+[16:23:04] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
+[16:23:04] [Server thread/WARN]: 
 **********************************************
 ** You are using the Spigot-mapped FAWE jar on a modern Paper version.
 ** This will result in slower first-run times and wasted disk space from plugin remapping.
 ** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
 **********************************************
-[01:03:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4de7143b]
-[01:03:55] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.4
-[01:03:55] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.4
-[01:03:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
-[01:03:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:03:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
-[01:03:55] [Server thread/INFO]:         __    
-[01:03:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.9
-[01:03:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:03:55] [Server thread/INFO]: 
-[01:03:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:03:56] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:03:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:03:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1412ms)
-[01:03:56] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[01:03:56] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[01:03:56] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[01:03:56] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[01:03:56] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[01:03:56] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
-[01:03:57] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[01:03:57] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[01:03:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:03:57] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[01:03:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
-[01:03:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
-[01:03:59] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1 build(s) out of date.
+[16:23:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@673f5e5]
+[16:23:05] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.4
+[16:23:05] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.4
+[16:23:05] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.7
+[16:23:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:23:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
+[16:23:06] [Server thread/INFO]:         __    
+[16:23:06] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.9
+[16:23:06] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:23:06] [Server thread/INFO]: 
+[16:23:06] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[16:23:07] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:23:07] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:23:07] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1554ms)
+[16:23:07] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:23:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:23:07] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:23:07] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:23:07] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:23:07] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
+[16:23:07] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[16:23:07] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[16:23:07] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:23:07] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[16:23:08] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[16:23:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.7
+[16:23:09] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1 build(s) out of date.
 You are running build 1129, the latest version is build 1130.
 Update at https://ci.athion.net/job/FastAsyncWorldEdit
-[01:03:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
-[01:04:00] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[01:04:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.7]
-[01:04:00] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[01:04:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:04:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:04:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:04:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:04:00] [Server thread/INFO]: Preparing level "world"
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[01:04:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[01:04:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:04:01] [Server thread/INFO]: Preparing spawn area: 0%
-[01:04:01] [Server thread/INFO]: Preparing spawn area: 0%
-[01:04:01] [Server thread/INFO]: Preparing spawn area: 0%
-[01:04:01] [Server thread/INFO]: Time elapsed: 1096 ms
-[01:04:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:04:01] [Server thread/INFO]: Preparing spawn area: 0%
-[01:04:02] [Server thread/INFO]: Time elapsed: 286 ms
-[01:04:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:04:02] [Server thread/INFO]: Preparing spawn area: 0%
-[01:04:02] [Server thread/INFO]: Time elapsed: 121 ms
-[01:04:02] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+31-9ef4fc3
-[01:04:02] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[01:04:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[01:04:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[01:04:02] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[01:04:02] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[01:04:03] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[01:04:03] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[01:04:03] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[01:04:03] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[01:04:03] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[01:04:03] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[01:04:03] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[01:04:03] [Server thread/INFO]: [Essentials] Using locale en
-[01:04:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:04:03] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:04:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[01:04:03] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[01:04:03] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[01:04:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[01:04:03] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
-[01:04:04] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+31-9ef4fc3
-[01:04:04] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[01:04:04] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.2
-[01:04:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.2]
-[01:04:04] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.2
-[01:04:04] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
-[01:04:04] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+31-9ef4fc3
-[01:04:04] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[01:04:04] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.4
-[01:04:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
-[01:04:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
-[01:04:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
-[01:04:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
-[01:04:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[01:04:04] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
-[01:04:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.4...
-[01:04:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
-[01:04:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[01:04:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[01:04:05] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
-[01:04:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
-[01:04:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
-[01:04:05] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 1039ms to complete
-[01:04:05] [Server thread/INFO]: [TAB] Enabling TAB v5.2.4
-[01:04:06] [Server thread/INFO]: [TAB] Enabled in 349ms
-[01:04:06] [Server thread/INFO]: [spark] Starting background profiler...
-[01:04:07] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[01:04:07] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[01:04:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[01:04:07] [Server thread/INFO]: [Geyser-Spigot] 
-[01:04:07] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b885 (git-master-853207b)
-[01:04:07] [Server thread/INFO]: [Geyser-Spigot] 
-[01:04:07] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[01:04:11] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[01:04:11] [Server thread/INFO]: [Geyser-Spigot] Done (4.562s)! Run /geyser help for help!
-[01:04:11] [Server thread/WARN]: [Geyser-Spigot] Your server software does not support the Java version that Geyser requires (1.21.7). Please install ViaVersion (https://ci.viaversion.com/job/ViaVersion/) or update your server software!
-[01:04:11] [Server thread/INFO]: Done preparing level "world" (11.647s)
-[01:04:11] [Server thread/INFO]: Running delayed init tasks
-[01:04:11] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[01:04:11] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] Checking for Updates ... 
-[01:04:11] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[01:04:12] [Server thread/INFO]: Done (31.479s)! For help, type "help"
-[01:04:12] [Craft Scheduler Thread - 6 - Vault/INFO]: [Vault] No new version available
-[01:10:59] [User Authenticator #0/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
-[01:11:01] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:11:01] [Server thread/INFO]: Ruby_HoshinoSan[/127.78.175.218:35977] logged in with entity id 66 at ([world]987.9797457865044, 63.0, 199.57964629959713)
-[01:11:02] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
-[01:11:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
-[01:17:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
-[01:17:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed 20
-[01:17:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
-[01:18:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /feed
-[01:18:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly 20
-[01:18:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed fly 10
-[01:18:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed 1
-[01:19:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /tps
-[01:19:24] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /tps
-[01:20:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sun
-[01:21:53] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
-[01:21:53] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[16:23:09] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[16:23:10] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:23:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.7]
+[16:23:10] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[16:23:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:23:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:23:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:23:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:23:10] [Server thread/INFO]: Preparing level "world"
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.7
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7eff058
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[16:23:10] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[16:23:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:23:10] [Server thread/INFO]: Preparing spawn area: 0%
+[16:23:11] [Server thread/INFO]: Preparing spawn area: 0%
+[16:23:11] [Server thread/INFO]: Time elapsed: 825 ms
+[16:23:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:23:11] [Server thread/INFO]: Preparing spawn area: 0%
+[16:23:11] [Server thread/INFO]: Time elapsed: 231 ms
+[16:23:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:23:11] [Server thread/INFO]: Preparing spawn area: 0%
+[16:23:11] [Server thread/INFO]: Time elapsed: 101 ms
+[16:23:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.1
+[16:23:11] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[16:23:12] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+31-9ef4fc3
+[16:23:12] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[16:23:12] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:23:12] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[16:23:12] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[16:23:13] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[16:23:13] [Server thread/INFO]: [Essentials] Using locale en
+[16:23:13] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:23:13] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:23:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:23:13] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[16:23:13] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[16:23:13] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:23:13] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.2-SNAPSHOT
+[16:23:13] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+31-9ef4fc3
+[16:23:13] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[16:23:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+[16:23:13] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.2
+[16:23:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.2]
+[16:23:13] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.2
+[16:23:13] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[16:23:14] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+31-9ef4fc3
+[16:23:14] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.4
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.4...
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[16:23:14] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[16:23:14] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 872ms to complete
+[16:23:14] [Server thread/INFO]: [TAB] Enabling TAB v5.2.4
+[16:23:15] [Server thread/INFO]: [TAB] [WARN] File plugins/TAB/config.yml has broken syntax.
+[16:23:15] [Server thread/INFO]: [TAB] Error message from yaml parser: while parsing a block collection
+ in 'reader', line 5, column 5:
+        - "<#5ddefb>&m                   ... 
+        ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 5, column 123:
+     ...                                 </#FFFF00>"
+                                         ^
+
+[16:23:15] [Server thread/INFO]: [TAB] Suggestions to fix yaml syntax:
+[16:23:15] [Server thread/INFO]: [TAB] - Remove extra text "                                             </" after ending " in line 5
+[16:23:15] [Server thread/INFO]: [TAB] [WARN] Did not enable due to a broken configuration file.
+[16:23:15] [Server thread/INFO]: [spark] Starting background profiler...
+[16:23:15] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:23:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:23:15] [Server thread/INFO]: [Geyser-Spigot] 
+[16:23:15] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.2-b885 (git-master-853207b)
+[16:23:15] [Server thread/INFO]: [Geyser-Spigot] 
+[16:23:15] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[16:23:19] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[16:23:19] [Server thread/INFO]: [Geyser-Spigot] Done (3.779s)! Run /geyser help for help!
+[16:23:19] [Server thread/INFO]: Done preparing level "world" (9.610s)
+[16:23:19] [Server thread/INFO]: Running delayed init tasks
+[16:23:19] [Craft Scheduler Thread - 1 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[16:23:19] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[16:23:20] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:23:20] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:23:20] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[16:23:20] [Server thread/INFO]: Done (28.018s)! For help, type "help"
+[16:23:20] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
+[16:23:20] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 1 EssentialsX dev build(s) out of date!
+[16:23:20] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[16:23:25] [User Authenticator #0/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[16:23:25] [Netty Epoll Server IO #0/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[16:23:25] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:23:26] [Server thread/INFO]: Ruby_HoshinoSan[/127.190.148.25:46679] logged in with entity id 64 at ([world]1034.3570900737911, 63.0, 237.22204468245658)
+[16:23:26] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[16:25:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[16:26:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[16:27:53] [Async Chat Thread - #0/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :hola
+[16:28:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 9
+[16:28:48] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[16:30:07] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed fly 3.85
+[16:30:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[16:31:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &d&lWORLDEDIT WAND
+[16:31:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&lWORLDEDIT WAND
+[16:31:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[16:31:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[16:32:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[16:32:01] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
