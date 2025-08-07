@@ -327,3 +327,8 @@ partner-submissions.gl.joinmc.linkpñ.}l<--[HERE]
 [02:35:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [02:40:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /time set night
 [02:40:44] [Async Chat Thread - #1/INFO]: [Not Secure]  OWNERRuby_HoshinoSan :hi
+[02:46:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[02:47:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[02:48:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[02:49:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[02:51:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
