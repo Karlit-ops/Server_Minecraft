@@ -2,7 +2,7 @@
 header-footer:
   enabled: true
   header:
-    - "<#5ddefb>&m                                                </#5083ff>"                                             </#FFFF00>"
+    - ""
     - "<#5ddefb>Cubecraft Vulcan</#5083ff>"
     - "&r&7Jugadores Online: &f%online%"
     - "&6Administradores Online: &e%staffonline%"
