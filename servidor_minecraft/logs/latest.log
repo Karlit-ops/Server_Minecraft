@@ -261,3 +261,16 @@ protectionstones<--[HERE]
 [02:09:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed 1
 [02:13:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
 [02:13:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[02:14:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ec
+[02:14:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[02:15:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[02:15:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
+[02:15:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[02:17:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[02:17:06] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[02:17:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[02:17:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[02:18:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[02:18:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[02:18:21] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[02:18:21] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
