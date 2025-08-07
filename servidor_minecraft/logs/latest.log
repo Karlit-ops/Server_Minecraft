@@ -274,3 +274,46 @@ protectionstones<--[HERE]
 [02:18:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [02:18:21] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
 [02:18:21] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[02:31:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
+jo<--[HERE]
+[02:31:42] [Server thread/INFO]: [TAB] [WARN] File plugins/TAB/config.yml has broken syntax.
+[02:31:42] [Server thread/INFO]: [TAB] Error message from yaml parser: while parsing a block collection
+ in 'reader', line 5, column 5:
+        - "<#5ddefb>&m                   ... 
+        ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 5, column 123:
+     ...                                 </#FFFF00>"
+                                         ^
+
+[02:31:42] [Server thread/INFO]: [TAB] Suggestions to fix yaml syntax:
+[02:31:42] [Server thread/INFO]: [TAB] - Remove extra text "                                             </" after ending " in line 5
+[02:31:42] [Server thread/INFO]: [TAB] [WARN] Did not enable due to a broken configuration file.
+[02:31:42] [Server thread/INFO]: Failed to reload, file config.yml has broken syntax. Check console for more info.
+[02:32:35] [Server thread/INFO]: [TAB] [WARN] File plugins/TAB/config.yml has broken syntax.
+[02:32:35] [Server thread/INFO]: [TAB] Error message from yaml parser: while parsing a block collection
+ in 'reader', line 5, column 5:
+        - "<#5ddefb>&m                   ... 
+        ^
+expected <block end>, but found '<scalar>'
+ in 'reader', line 5, column 123:
+     ...                                 </#FFFF00>"
+                                         ^
+
+[02:32:35] [Server thread/INFO]: [TAB] Suggestions to fix yaml syntax:
+[02:32:35] [Server thread/INFO]: [TAB] - Remove extra text "                                             </" after ending " in line 5
+[02:32:35] [Server thread/INFO]: [TAB] [WARN] Did not enable due to a broken configuration file.
+[02:32:35] [Server thread/INFO]: Failed to reload, file config.yml has broken syntax. Check console for more info.
+[02:32:41] [Server thread/INFO]: Unknown or incomplete command, see below for error
+partner-submissions.gl.joinmc.linkpñ.}l<--[HERE]
+[02:33:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tempban Ruby_HoshinoSan Corruption To The Server
+[02:33:20] [Server thread/INFO]: Error: Illegal date format.
+[02:33:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tempban Ruby_HoshinoSan Corruption
+[02:33:32] [Server thread/INFO]: Error: Illegal date format.
+[02:33:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tempban Ruby_HoshinoSan 100d Corruption
+[02:33:49] [Server thread/INFO]: [Essentials] Player Console temporarily banned Ruby_HoshinoSan for 3 months 8 days: Corruption.
+[02:34:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tempban Ruby_HoshinoSan 100d Corruption To The Server
+[02:34:00] [Server thread/INFO]: [Essentials] Player Console temporarily banned Ruby_HoshinoSan for 3 months 8 days: Corruption To The Server.
+[02:34:09] [User Authenticator #2/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[02:34:09] [Server thread/INFO]: Disconnecting Ruby_HoshinoSan (/127.31.2.75:59021): You are banned from this server for 3 months 7 days 23 hours. Reason: Corruption To The Server
+[02:34:09] [Server thread/INFO]: Ruby_HoshinoSan (/127.31.2.75:59021) lost connection: You are banned from this server for 3 months 7 days 23 hours. Reason: Corruption To The Server
