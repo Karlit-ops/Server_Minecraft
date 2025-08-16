@@ -367,3 +367,8 @@ ITEMS ILEGALES
 [19:15:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
 [19:15:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
 [19:15:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //walls hand
+[19:16:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant silktouch 10
+[19:16:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&lILEGAL &c&lPICHAXE 2
+[19:18:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&lILEGAL &c&lPICHAXE
+[19:18:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &d&lKIT ILEGAL
+[19:18:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &d&lKIT ILEGAL 2
