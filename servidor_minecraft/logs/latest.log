@@ -290,3 +290,22 @@ pb all<--[HERE]
 [17:54:54] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of Ruby_HoshinoSan, updating cached skin...
 [17:54:54] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:54973] logged in with entity id 5875 at ([world]990.6469055927283, 121.0625, 163.2106686139076)
 [17:54:54] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
+[17:56:13] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[17:56:13] [Server thread/INFO]: [-] VIP Ruby_HoshinoSan
+[17:56:16] [User Authenticator #3/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[17:56:17] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of Ruby_HoshinoSan, updating cached skin...
+[17:56:17] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:45795] logged in with entity id 6011 at ([world]990.467294903014, 121.0625, 165.01970130520823)
+[17:56:17] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
+[17:56:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[17:56:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[17:57:15] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&lILEGAL &c&lPICHAXE
+[17:57:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant efficiency 200
+[17:57:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant unbreaking 1000
+[17:58:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant fortune 100
+[17:59:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
+[17:59:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[18:00:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[18:00:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant respiration 3
+[18:00:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[18:01:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant respiration 255
+[18:02:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /give Ruby_HoshinoSan shulker_box 1
