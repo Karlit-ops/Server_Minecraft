@@ -247,3 +247,15 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [17:13:38] [Server thread/INFO]: [+]  Ruby_HoshinoSan
 [17:13:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
 [17:14:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[17:15:04] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [Monster Hunter]
+[17:15:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect clear @p
+[17:15:32] [Server thread/INFO]: [Ruby_HoshinoSan: Removed every effect from Ruby_HoshinoSan]
+[17:15:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
+[17:15:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
+[17:18:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ec
+[17:20:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fcancel
+[17:20:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[17:21:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /flyspeed fly 5
+[17:22:13] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [Sweet Dreams]
+[17:22:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /V
+[17:23:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
