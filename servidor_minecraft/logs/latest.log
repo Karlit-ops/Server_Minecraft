@@ -278,3 +278,15 @@ pb all<--[HERE]
 [17:32:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Bienvenido &4Owner &5Ruby_HoshinoSan
 [17:32:39] [Async Chat Thread - #6/INFO]:  VIPRuby_HoshinoSan :Arigato
 [17:32:47] [Async Chat Thread - #6/INFO]:  VIPRuby_HoshinoSan :ARIGATO
+[17:54:08] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[17:54:08] [Server thread/INFO]: [-] VIP Ruby_HoshinoSan
+[17:54:11] [User Authenticator #2/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[17:54:12] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of Ruby_HoshinoSan, updating cached skin...
+[17:54:12] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:57037] logged in with entity id 5826 at ([world]992.4596152072951, 121.0625, 168.43073484804063)
+[17:54:12] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
+[17:54:38] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[17:54:38] [Server thread/INFO]: [-] VIP Ruby_HoshinoSan
+[17:54:53] [User Authenticator #2/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[17:54:54] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of Ruby_HoshinoSan, updating cached skin...
+[17:54:54] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:54973] logged in with entity id 5875 at ([world]990.6469055927283, 121.0625, 163.2106686139076)
+[17:54:54] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
