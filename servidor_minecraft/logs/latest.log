@@ -309,3 +309,48 @@ pb all<--[HERE]
 [18:00:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
 [18:01:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /enchant respiration 255
 [18:02:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /give Ruby_HoshinoSan shulker_box 1
+[18:05:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
+[18:06:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /ban Ruby_HoshinoSan &b&lITEMS ILEGALES
+[18:06:48] [Server thread/INFO]: Ruby_HoshinoSan lost connection: You have been banned:
+ITEMS ILEGALES
+[18:06:48] [Server thread/INFO]: [-] VIP Ruby_HoshinoSan
+[18:06:48] [Server thread/INFO]: [Essentials] Player Console banned Ruby_HoshinoSan for: \<secondary>You have been banned:
+\<reset>\<bold>\<aqua>ITEMS ILEGALES\</aqua>\</bold>.
+[18:07:02] [User Authenticator #4/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[18:07:02] [Server thread/INFO]: Disconnecting Ruby_HoshinoSan (/127.126.221.222:50999): You are banned from this server. Reason: ITEMS ILEGALES
+[18:07:02] [Server thread/INFO]: Ruby_HoshinoSan (/127.126.221.222:50999) lost connection: You are banned from this server. Reason: ITEMS ILEGALES
+[18:07:20] [User Authenticator #4/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[18:07:20] [Server thread/INFO]: Disconnecting Ruby_HoshinoSan (/127.126.221.222:59079): You are banned from this server. Reason: ITEMS ILEGALES
+[18:07:20] [Server thread/INFO]: Ruby_HoshinoSan (/127.126.221.222:59079) lost connection: You are banned from this server. Reason: ITEMS ILEGALES
+[18:07:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /unban Ruby_HoshinoSan Request
+[18:07:58] [Server thread/INFO]: [Essentials] Player Console unbanned Ruby_HoshinoSan
+[18:08:05] [User Authenticator #4/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[18:08:06] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:50763] logged in with entity id 7695 at ([world]1122.9139331710205, 48.0, 232.2045373720643)
+[18:08:06] [Server thread/INFO]: [+] VIP Ruby_HoshinoSan
+[18:08:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp creategroup admin
+[18:08:34] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (admin)
+[18:08:34] [luckperms-command-executor/INFO]: [LP] LOG > create
+[18:09:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp group admin meta setprefix ''&c&lADMIN &b''
+[18:09:22] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (admin)
+[18:09:22] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 ''&c&lADMIN server=&b''
+[18:10:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp group admin meta setprefix &c&lADMINㅤ&b
+[18:10:43] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (admin)
+[18:10:43] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &c&lADMINㅤ&b
+[18:11:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan parent set admin
+[18:11:02] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[18:11:02] [luckperms-command-executor/INFO]: [LP] LOG > parent set admin
+[18:11:10] [Async Chat Thread - #11/INFO]:  ADMINㅤRuby_HoshinoSan :buenas
+[18:11:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp group admin meta setprefix &c&lADMIN&b
+[18:11:34] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (admin)
+[18:11:34] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &c&lADMIN&b
+[18:11:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp group admin meta setprefix &c&lADMIN&b
+[18:11:43] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (admin)
+[18:11:43] [luckperms-command-executor/INFO]: [LP] LOG > meta setprefix 1 &c&lADMIN&b
+[18:13:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
+[18:13:38] [Async Chat Thread - #13/INFO]:  ADMINRuby_HoshinoSan :bi
+[18:13:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
+[18:13:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
+[18:13:56] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
+[18:13:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
+[18:14:52] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[18:14:52] [Server thread/INFO]: [-] ADMIN Ruby_HoshinoSan
