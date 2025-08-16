@@ -259,3 +259,22 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [17:22:13] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [Sweet Dreams]
 [17:22:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /V
 [17:23:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /v
+[17:25:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /repair all
+[17:25:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /pl
+[17:27:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp listgroups
+[17:27:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan parent set owner
+[17:27:28] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[17:27:28] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
+[17:27:36] [Async Chat Thread - #4/INFO]:  OWNERRuby_HoshinoSan :buenas
+[17:28:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan parent set vip
+[17:28:41] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[17:28:41] [luckperms-command-executor/INFO]: [LP] LOG > parent set vip
+[17:29:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /tps
+[17:29:15] [Server thread/INFO]: Unknown or incomplete command, see below for error
+pb all<--[HERE]
+[17:30:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /essentials:kit color
+[17:30:03] [Server thread/INFO]: [Essentials] File book.txt does not exist. Creating one for you.
+[17:31:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Bienvenido &4&lOwner &d&lRuby_HoshinoSan
+[17:32:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast Bienvenido &4Owner &5Ruby_HoshinoSan
+[17:32:39] [Async Chat Thread - #6/INFO]:  VIPRuby_HoshinoSan :Arigato
+[17:32:47] [Async Chat Thread - #6/INFO]:  VIPRuby_HoshinoSan :ARIGATO
