@@ -354,3 +354,16 @@ ITEMS ILEGALES
 [18:13:59] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /afk
 [18:14:52] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
 [18:14:52] [Server thread/INFO]: [-] ADMIN Ruby_HoshinoSan
+[19:09:22] [User Authenticator #5/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[19:09:23] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:53869] logged in with entity id 8480 at ([world]1117.699999988079, 63.0, 221.30000001192093)
+[19:09:23] [Server thread/INFO]: [+] ADMIN Ruby_HoshinoSan
+[19:12:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //wand
+[19:12:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[19:12:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[19:12:51] [AsyncNotifyKeyedQueue - 0/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[19:13:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //walls hand
+[19:14:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[19:14:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[19:15:02] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[19:15:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[19:15:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //walls hand
