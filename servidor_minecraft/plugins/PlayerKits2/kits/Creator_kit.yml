@@ -8,7 +8,7 @@ allow_placeholders_on_original_items: false
 display:
   default:
     id: NETHERITE_SWORD
-    name: '&b&l%kit_name% &b&lKIT'
+    name: '&b&l%kit_name% &b&l&oKIT'
     amount: 1
     lore:
     item_flags:
@@ -35,7 +35,7 @@ display:
     amount: 1
     enchants:
     - LOOTING;10
-    - SHARPNESS;10
+    - SHARPNESS;25
     - UNBREAKING;20
 items:
   '1':
@@ -49,7 +49,7 @@ items:
         display-name: '{"text":"","extra":[{"text":"CREATOR ","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"dark_red"},{"text":"SWORD","bold":true,"italic":false,"color":"white"}]}'
         enchants:
           minecraft:looting: 10
-          minecraft:sharpness: 10
+          minecraft:sharpness: 25
           minecraft:unbreaking: 20
   '2':
     original:

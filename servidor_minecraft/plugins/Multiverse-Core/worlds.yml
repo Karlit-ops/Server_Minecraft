@@ -150,6 +150,11 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
+    animal:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
     water_underground_creature:
       spawn: true
       tick-rate: -1
