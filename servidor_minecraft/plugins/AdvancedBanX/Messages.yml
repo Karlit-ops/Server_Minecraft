@@ -3,20 +3,20 @@
 # Legacy (&/§) formatting is not supported and will cause errors
 
 General:
-  Prefix: "<bold><red>AdvancedBanX</red> <dark_gray>»</dark_gray></bold>"
-  NoPerms: "<red>You don't have perms for that!</red>"
-  LayoutNotFound: "<red>There is no layout called %NAME%</red>"
+  Prefix: "<bold><blue>CUBECRAFT VULCAN</blue> <dark_gray>»</dark_gray></bold>"
+  NoPerms: "<red>Tu No Tienes Permisos Para Esto!</red>"
+  LayoutNotFound: "<red>No ay Ninguna Persona Con Este Nombre %NAME%</red>"
   # This will be the replacement for the %DURATION% variable
-  TimeLayoutD: "%D%day(s) %H%h %M%min and %S%sec"
-  TimeLayoutH: "%H%hour(s) %M%min and %S%sec"
-  TimeLayoutM: "%M%min and %S%sec"
-  TimeLayoutS: "%S% seconds"
+  TimeLayoutD: "%D%dia(s) %H%h %M%minuto y %S%segundos"
+  TimeLayoutH: "%H%hora(s) %M%minutos y %S%segundos"
+  TimeLayoutM: "%M%minutos y %S%segundos"
+  TimeLayoutS: "%S% segundos"
   FailedFetch: "<red>Could not fetch the UUID of %NAME%! See console for details.</red>"
 
 
 Ban:
-  Usage: "<red>Usage</red> <dark_gray>»</dark_gray> <gray><italic>/ban (-s) [Name] [Reason/@Layout]</italic></gray>"
-  Done: "<italic><red>%NAME%</red></italic> <gray>was successfully banned!</gray>"
+  Usage: "<red>Usage</red> <dark_gray>»</dark_gray> <gray><italic>/ban (-s) [Nombre] [Razon/@Layout]</italic></gray>"
+  Done: "<italic><red>%NAME%</red></italic> <gray>Este Jugador/a !</gray>"
   AlreadyDone: "<italic><red>%NAME%</red></italic> <gray>has already been banned!</gray>"
   Exempt: "<gray>You are not able to ban <red><italic>%NAME%</italic></red></gray>"
   Layout:

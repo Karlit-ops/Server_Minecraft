@@ -885,3 +885,37 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [23:15:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan permission unset *
 [23:15:14] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
 [23:15:14] [luckperms-command-executor/INFO]: [LP] LOG > permission unset *
+[23:15:38] [Craft Scheduler Thread - 98 - AdvancedBanX/INFO]: AdvancedBanX » Ruby_HoshinoSan was successfully banned!
+[23:15:38] [Server thread/INFO]: Ruby_HoshinoSan lost connection: AdvancedBanX » Permanently banned
+
+
+Reason » No reason provided.
+
+Unban application in TS or forum
+TS-Ip » coming soon
+Forum » coming soon
+[23:15:38] [Server thread/INFO]: [-] ADMIN Ruby_HoshinoSan
+[23:15:53] [User Authenticator #4/INFO]: Disconnecting Ruby_HoshinoSan (/127.126.221.222:53801): AdvancedBanX » Permanently banned
+
+
+Reason » No reason provided.
+
+Unban application in TS or forum
+TS-Ip » coming soon
+Forum » coming soon
+[23:15:53] [User Authenticator #4/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[23:15:53] [Server thread/INFO]: Ruby_HoshinoSan (/127.126.221.222:53801) lost connection: AdvancedBanX » Permanently banned
+
+
+Reason » No reason provided.
+
+Unban application in TS or forum
+TS-Ip » coming soon
+Forum » coming soon
+[23:16:12] [Craft Scheduler Thread - 106 - AdvancedBanX/INFO]: AdvancedBanX » [Name/IP] is not banned!
+[23:16:22] [Craft Scheduler Thread - 108 - AdvancedBanX/INFO]: AdvancedBanX » Ruby_HoshinoSan was successfully unbanned!
+[23:16:27] [Craft Scheduler Thread - 108 - AdvancedBanX/INFO]: AdvancedBanX » Usage » /unban [Name/IP]
+[23:16:33] [User Authenticator #4/INFO]: UUID of player Ruby_HoshinoSan is 75615c2b-24de-4728-b024-c3883ff0d5a5
+[23:16:34] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:33981] logged in with entity id 4188 at ([world]976.1985875436953, 121.0625, 127.88065899734434)
+[23:16:34] [Server thread/INFO]: [+] ADMIN Ruby_HoshinoSan
+[23:16:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
