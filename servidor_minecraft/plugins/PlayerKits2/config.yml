@@ -34,11 +34,11 @@ new_kit_default_values:
         - "&cYou don't have permissions to claim"
         - "&cthis kit."
     cooldown:
-      id: STONE_SWORD
-      name: "&c&l%kit_name% &cKit"
+      id: BARRIER
+      name: "&c&l%kit_name% &bKit"
       lore:
-        - "&cYou need to wait &7%time%"
-        - "&cto claim this kit again."
+        - "&cNecesitas Esperar &7%time%"
+        - "&cPara Reclamar Este Kit."
       item_flags:
         - HIDE_ATTRIBUTES
 player_data_save_time: 300

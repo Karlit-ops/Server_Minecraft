@@ -76,18 +76,18 @@ hypixel:
   seed: 0
   spawn-location:
     ==: MVSpawnLocation
-    x: -52.51807240039119
+    x: -52.582150844671425
     y: 96.0
-    z: 0.37294928470149485
-    pitch: -1.3499979
-    yaw: -89.999664
+    z: 0.542370075025784
+    pitch: -6.4500318
+    yaw: -89.39938
   spawning:
-    animal:
+    misc:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    misc:
+    animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -145,12 +145,7 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    water_ambient:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    ambient:
+    water_animal:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
@@ -160,17 +155,22 @@ world:
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
-    axolotl:
-      spawn: true
-      tick-rate: -1
-      spawn-limit: -1
-      exceptions: []
-    water_animal:
+    ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
       exceptions: []
     monster:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    axolotl:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
+    water_ambient:
       spawn: true
       tick-rate: -1
       spawn-limit: -1
