@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "75615c2b-24de-4728-b024-c3883ff0d5a5",
+    "name": "Ruby_HoshinoSan",
+    "created": "2025-08-19 23:32:17 +0000",
+    "source": "CONSOLE",
+    "expires": "2025-08-26 23:32:17 +0000",
+    "reason": "Uso De Exploits"
+  }
+]

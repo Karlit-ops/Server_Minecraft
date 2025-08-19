@@ -16,11 +16,11 @@ General:
 
 Ban:
   Usage: "<red>Usage</red> <dark_gray>»</dark_gray> <gray><italic>/ban (-s) [Nombre] [Razon/@Layout]</italic></gray>"
-  Done: "<italic><red>%NAME%</red></italic> <gray>Este Jugador/a !</gray>"
-  AlreadyDone: "<italic><red>%NAME%</red></italic> <gray>has already been banned!</gray>"
-  Exempt: "<gray>You are not able to ban <red><italic>%NAME%</italic></red></gray>"
+  Done: "<italic><red>%NAME%</red></italic> <gray>El Baneo Se Completo Satisfactoriamente!</gray>"
+  AlreadyDone: "<italic><red>%NAME%</red></italic> <gray>Este Jugador/a Ya Esta Baneado!</gray>"
+  Exempt: "<gray>Esta Persona No Se Puede Banear <red><italic>%NAME%</italic></red></gray>"
   Layout:
-    - '%PREFIX% <gray>Permanently banned</gray>'
+    - '%PREFIX% <gray>Baneado Permanentemente</gray>'
     - ''
     - ''
     - "<red>Reason <dark_gray>»</dark_gray></red> <gray>%REASON%</gray>"
