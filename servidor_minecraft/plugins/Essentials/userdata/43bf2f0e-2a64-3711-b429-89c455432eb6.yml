@@ -18,7 +18,9 @@ timestamps:
   onlinejail: 0
   logout: 1755651636714
   login: 1755729328789
-money: '250000'
+  kits:
+    color: 1755730040795
+money: '31724.16'
 last-account-name: Ruby_HoshinoSan
 logoutlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
