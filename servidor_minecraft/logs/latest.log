@@ -659,3 +659,41 @@ Forum » coming soon
 [23:37:56] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel use-dripleaf DENY
 [23:37:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
 [23:38:00] [Server thread/INFO]: InamHilen issued server command: /rg flags 2
+[23:43:40] [Server thread/INFO]: InamHilen issued server command: /rg flags -w "hypixel" -p 3 hypixel
+[23:43:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ravager-grief DENY
+[23:43:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel entity-painting-destroy DENY
+[23:43:45] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel entity-item-frame-destroy DENY
+[23:43:46] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel mob-spawning DENY
+[23:43:56] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel deny-spawn
+[23:43:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:44:06] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel deny-spawn hostile
+[23:44:10] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel pistons DENY
+[23:44:12] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel fire-spread DENY
+[23:44:13] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel lava-fire DENY
+[23:44:13] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel lightning DENY
+[23:44:14] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel snow-fall DENY
+[23:44:15] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-form DENY
+[23:44:15] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-form 
+[23:44:16] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel snow-melt DENY
+[23:44:16] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-melt DENY
+[23:44:17] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-form DENY
+[23:44:18] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel frosted-ice-melt DENY
+[23:44:19] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel frosted-ice-form DENY
+[23:44:19] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel mushroom-growth DENY
+[23:44:20] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel leaf-decay DENY
+[23:44:21] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel grass-growth DENY
+[23:44:23] [Server thread/INFO]: InamHilen issued server command: /rg flags -w "hypixel" -p 4 hypixel
+[23:44:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:45:43] [Server thread/INFO]: InamHilen issued server command: /difficulty peaceful
+[23:45:43] [Server thread/INFO]: [InamHilen: The difficulty has been set to Peaceful]
+[23:46:01] [Server thread/INFO]: InamHilen issued server command: /rg list
+[23:46:04] [Server thread/INFO]: InamHilen issued server command: /rg info -w "hypixel" hypixel
+[23:46:24] [Server thread/INFO]: InamHilen issued server command: /rg tp -c -w "hypixel" hypixel
+[23:46:27] [Server thread/INFO]: InamHilen issued server command: /rg tp -c -w "hypixel" hypixel
+[23:46:35] [Server thread/INFO]: InamHilen issued server command: /rg setspawn
+[23:47:41] [Server thread/INFO]: InamHilen issued server command: /skin AiHoshino
+[23:47:54] [Server thread/INFO]: InamHilen issued server command: /skin AquaHoshino
+[23:48:06] [Server thread/INFO]: InamHilen issued server command: /skin AquamarineHoshino
+[23:48:18] [Server thread/INFO]: InamHilen issued server command: /skin HoshinoAqua
+[23:49:40] [Server thread/INFO]: InamHilen lost connection: Disconnected
+[23:49:40] [Server thread/INFO]: [-] VIP+ InamHilen
