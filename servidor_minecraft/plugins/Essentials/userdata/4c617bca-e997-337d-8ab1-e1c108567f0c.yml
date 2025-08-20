@@ -16,9 +16,9 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755731329627
-  login: 1755731208381
-money: '5000'
+  logout: 1755731711681
+  login: 1755731781277
+money: '97.32'
 last-account-name: InamHilen
 lastlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
@@ -28,3 +28,11 @@ lastlocation:
   z: 219.5
   yaw: 0.0
   pitch: 0.0
+logoutlocation:
+  world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
+  world-name: world
+  x: 959.0781893708111
+  y: -1.0
+  z: 391.60242863244724
+  yaw: 64.6500244140625
+  pitch: 12.749961853027344
