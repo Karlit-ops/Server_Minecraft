@@ -425,3 +425,49 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [22:58:47] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:55287] logged in with entity id 3795 at ([world]992.00261005449, 123.20000004768372, 173.64731492108123)
 [22:58:47] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
 [22:58:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[22:59:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON
+[22:59:14] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:59:14] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &4&lDEMON
+[22:59:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON
+[22:59:30] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:59:30] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &4&lDEMON
+[22:59:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON hypixel
+[22:59:45] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:59:45] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 2 &4&lDEMON server=hypixel
+[22:59:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON mvinv:worldgroup
+[22:59:55] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:59:55] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 2 &4&lDEMON server=mvinv:worldgroup
+[23:00:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv tp hypixel
+[23:00:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[23:00:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard
+[23:00:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard help
+[23:00:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard profile
+[23:02:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //worldeditregion
+[23:02:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard:region
+[23:02:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg
+[23:03:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg select
+[23:03:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create
+[23:04:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create -ng hypixel 1 Ruby_HoshinoSan
+[23:04:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:05:09] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[23:05:09] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[23:06:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
+whitelist<--[HERE]
+[23:06:05] [Server thread/INFO]: Whitelist is now turned on
+[23:06:26] [User Authenticator #2/INFO]: UUID of player InamHilen is 4c617bca-e997-337d-8ab1-e1c108567f0c
+[23:06:26] [Server thread/INFO]: Disconnecting InamHilen (/127.126.221.222:53173): You are not whitelisted on this server!
+[23:06:27] [Server thread/INFO]: InamHilen (/127.126.221.222:53173) lost connection: You are not whitelisted on this server!
+[23:06:39] [Server thread/INFO]: Added InamHilen to the whitelist
+[23:06:46] [User Authenticator #2/INFO]: UUID of player InamHilen is 4c617bca-e997-337d-8ab1-e1c108567f0c
+[23:06:48] [Server thread/INFO]: InamHilen[/127.126.221.222:39045] logged in with entity id 5290 at ([world]1138.5, 68.0, 219.5)
+[23:06:48] [Server thread/INFO]: [+]  InamHilen
+[23:06:48] [Server thread/INFO]: InamHilen has made the advancement [Getting an Upgrade]
+[23:08:21] [Server thread/INFO]: InamHilen has made the advancement [Diamonds!]
+[23:08:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v 
+[23:08:34] [Server thread/INFO]: Error: Player not found.
+[23:08:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v InamHilen
+[23:08:39] [Server thread/INFO]: Vanish for InamHilen: enabled
+[23:08:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v InamHilen
+[23:08:48] [Server thread/INFO]: Vanish for InamHilen: disabled
+[23:08:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v InamHilen
+[23:08:51] [Server thread/INFO]: Vanish for InamHilen: enabled
