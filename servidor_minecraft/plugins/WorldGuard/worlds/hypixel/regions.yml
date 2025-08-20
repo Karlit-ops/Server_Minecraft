@@ -14,8 +14,14 @@ regions:
         min: {x: -337, y: -59, z: -284}
         max: {x: 284, y: 191, z: 316}
         members: {}
-        flags: {use: deny, wind-charge-burst: deny, block-break: deny, block-trampling: deny,
-            tnt: deny, chest-access: deny}
-        owners: {}
+        flags: {other-explosion: deny, wither-damage: deny, breeze-charge-explosion: deny,
+            use: deny, block-trampling: deny, enderman-grief: deny, use-dripleaf: deny,
+            chest-access: deny, firework-damage: deny, enderdragon-block-damage: deny,
+            item-drop: deny, creeper-explosion: deny, exp-drops: deny, snowman-trails: deny,
+            wind-charge-burst: deny, item-pickup: deny, item-frame-rotation: deny,
+            mob-damage: deny, block-break: deny, tnt: deny, ghast-fireball: deny,
+            use-anvil: deny}
+        owners:
+            unique-ids: [ec452599-0964-3b0b-b122-fb400384c26d, cec71a29-2d50-32fa-94de-3f76b22050f8]
         type: cuboid
         priority: 0

@@ -591,3 +591,71 @@ Forum » coming soon
 [23:29:19] [Server thread/INFO]: Too few arguments.
 [23:29:19] [Server thread/INFO]: /region addowner [-n] <id> <owners...>
 [23:29:28] [Server thread/INFO]: Please specify the world with -w world_name.
+[23:29:51] [Server thread/INFO]: Please specify the world with -w world_name.
+[23:30:02] [Server thread/INFO]: No region could be found with the name of '1'.
+[23:30:10] [Server thread/INFO]: No region could be found with the name of '1'.
+[23:30:14] [Server thread/INFO]: Please specify the world with -w world_name.
+[23:30:28] [Server thread/INFO]: Made InamHilen a server operator
+[23:30:34] [Server thread/INFO]: InamHilen issued server command: /rg list
+[23:30:43] [Server thread/INFO]: InamHilen issued server command: /rg info -w "hypixel" hypixel
+[23:30:52] [Server thread/INFO]: InamHilen issued server command: /rg addowner -w "hypixel" hypixel InamHilen{
+[23:30:58] [Server thread/INFO]: InamHilen issued server command: /rg info -w "hypixel" hypixel
+[23:30:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:31:11] [Server thread/INFO]: InamHilen issued server command: /rg addowner -w "hypixel" hypixel Ruby_HoshinoSan
+[23:31:25] [Server thread/INFO]: Made InamHilen no longer a server operator
+[23:31:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:31:55] [Server thread/INFO]: Made InamHilen a server operator
+[23:32:08] [Server thread/INFO]: InamHilen issued server command: /rg bypass
+[23:32:15] [Server thread/INFO]: InamHilen issued server command: /rg bypass add
+[23:32:19] [Server thread/INFO]: InamHilen issued server command: /rg bypass on
+[23:32:32] [Server thread/INFO]: Made InamHilen no longer a server operator
+[23:32:45] [Server thread/INFO]: Made InamHilen a server operator
+[23:34:46] [Server thread/INFO]: InamHilen issued server command: /mv create hypixel_nether nether
+[23:34:47] [Server thread/INFO]: Preparing start region for dimension minecraft:hypixel_nether
+[23:34:47] [Server thread/INFO]: Preparing spawn area: 2%
+[23:34:48] [Server thread/INFO]: Preparing spawn area: 2%
+[23:34:48] [Server thread/INFO]: Preparing spawn area: 20%
+[23:34:49] [Server thread/INFO]: Preparing spawn area: 57%
+[23:34:49] [Server thread/INFO]: Time elapsed: 1769 ms
+[23:34:49] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[23:34:49] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) TNT ignition is PERMITTED.
+[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) Lighters are PERMITTED.
+[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) Lava fire is PERMITTED.
+[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) Fire spread is UNRESTRICTED.
+[23:34:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hypixel_nether'
+[23:34:49] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[23:34:49] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 66 Z: 0 P: 0 Y: 0 
+[23:34:49] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'hypixel_nether' is located at: hypixel_nether:0.00,128.00,0.00:0.00:0.00
+[23:34:52] [Server thread/INFO]: InamHilen has made the advancement [We Need to Go Deeper]
+[23:35:16] [Server thread/INFO]: InamHilen fell from a high place
+[23:35:25] [Server thread/INFO]: InamHilen issued server command: /mv tp hypixel
+[23:35:55] [Server thread/INFO]: InamHilen issued server command: /fly
+[23:36:10] [Server thread/INFO]: InamHilen issued server command: /skin Hylen
+[23:36:23] [Server thread/INFO]: InamHilen issued server command: /mv delete hypixel_nether
+[23:36:30] [Server thread/INFO]: InamHilen issued server command: /mv confirm 829
+[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hypixel_nether'
+[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hypixel_nether'
+[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hypixel_nether'
+[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hypixel_nether'
+[23:36:50] [Server thread/INFO]: InamHilen issued server command: /rg flags
+[23:37:22] [Server thread/INFO]: InamHilen issued server command: /rg flags -w "hypixel" -p 2 hypixel
+[23:37:29] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-drop DENY
+[23:37:30] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-pickup DENY
+[23:37:34] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel mob-damage DENY
+[23:37:36] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel exp-drops DENY
+[23:37:36] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel creeper-explosion DENY
+[23:37:39] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel enderdragon-block-damage DENY
+[23:37:40] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel ghast-fireball DENY
+[23:37:41] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel other-explosion DENY
+[23:37:43] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel breeze-charge-explosion DENY
+[23:37:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel wither-damage DENY
+[23:37:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel snowman-trails DENY
+[23:37:45] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel enderman-grief DENY
+[23:37:49] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-frame-rotation ALLOW
+[23:37:51] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-frame-rotation DENY
+[23:37:54] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel firework-damage DENY
+[23:37:56] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel use-anvil DENY
+[23:37:56] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel use-dripleaf DENY
+[23:37:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:38:00] [Server thread/INFO]: InamHilen issued server command: /rg flags 2
