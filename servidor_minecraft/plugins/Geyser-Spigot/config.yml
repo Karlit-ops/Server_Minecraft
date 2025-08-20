@@ -16,7 +16,7 @@ bedrock:
   # Generally, you should only uncomment and change this if you want to limit what IPs can connect to your server.
   #address: 0.0.0.0
   # The port that will listen for connections
-  port: 19132
+  port: 2549
   # Some hosting services change your Java port everytime you start the server and require the same port to be used for Bedrock.
   # This option makes the Bedrock port the same as the Java port every time you start the server.
   # This option is for the plugin version only.
@@ -187,7 +187,7 @@ metrics:
   # If metrics should be enabled
   enabled: true
   # UUID of server, don't change!
-  uuid: 60c0cf4a-750d-4625-be04-e2e75e4ead25
+  uuid: 09766a05-16bd-4907-9ecd-2b57d5478893
 
 # ADVANCED OPTIONS - DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!
 
