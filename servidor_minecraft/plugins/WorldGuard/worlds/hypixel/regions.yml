@@ -11,9 +11,11 @@
 #
 regions:
     hypixel:
+        min: {x: -337, y: -59, z: -284}
+        max: {x: 284, y: 191, z: 316}
         members: {}
-        flags: {}
-        owners:
-            players: [hypixel, '1', ruby_hoshinosan]
-        type: global
+        flags: {use: deny, wind-charge-burst: deny, block-break: deny, block-trampling: deny,
+            tnt: deny, chest-access: deny}
+        owners: {}
+        type: cuboid
         priority: 0

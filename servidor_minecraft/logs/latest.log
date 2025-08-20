@@ -550,3 +550,44 @@ Forum » coming soon
 [23:17:08] [Server thread/INFO]: InamHilen issued server command: /floodgate:linkaccount
 [23:17:17] [Server thread/INFO]: InamHilen issued server command: /linkaccount InamHilen 23511
 [23:19:14] [Server thread/INFO]: Usage: mvtp [player] <destination> [--unsafe]
+[23:20:12] [Server thread/INFO]: Teleported InamHilen to w:hypixel.
+[23:21:20] [Server thread/INFO]: InamHilen was slain by Spider
+[23:21:37] [Server thread/INFO]: Teleported InamHilen to w:hypixel.
+[23:22:21] [Server thread/INFO]: InamHilen issued server command: /op
+[23:22:31] [Server thread/INFO]: Made InamHilen a server operator
+[23:22:37] [Server thread/INFO]: InamHilen issued server command: /fly
+[23:22:42] [Server thread/INFO]: InamHilen issued server command: //wand
+[23:22:51] [Server thread/INFO]: InamHilen issued server command: /flyspeed fly 5
+[23:23:10] [Server thread/INFO]: InamHilen issued server command: //up 0
+[23:23:18] [Server thread/INFO]: InamHilen issued server command: //up 0
+[23:23:18] [AsyncNotifyKeyedQueue - 1/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[23:23:23] [Server thread/INFO]: InamHilen issued server command: /gm 1
+[23:23:51] [Server thread/INFO]: InamHilen issued server command: //up 0
+[23:24:10] [Server thread/INFO]: InamHilen issued server command: /rg delete
+[23:24:13] [Server thread/INFO]: InamHilen issued server command: /rg delete 1
+[23:24:19] [Server thread/INFO]: InamHilen issued server command: /rg delete -fu 1
+[23:24:24] [Server thread/INFO]: InamHilen issued server command: /rg delete hypixel 1
+[23:24:29] [Server thread/INFO]: InamHilen issued server command: /rg delete hypixel
+[23:24:40] [Server thread/INFO]: InamHilen issued server command: /mv create hypixel
+[23:24:55] [Server thread/INFO]: InamHilen issued server command: /rg create hypixel
+[23:24:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:25:09] [Server thread/INFO]: InamHilen issued server command: /rg flag hypixel
+[23:25:16] [Server thread/INFO]: InamHilen issued server command: /rg flag hypixel 1
+[23:25:32] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel block-break unable
+[23:25:40] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel block-break deny
+[23:25:51] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel tnt deny
+[23:25:58] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel use deny
+[23:25:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:26:04] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel wind-charge-burst deny
+[23:26:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:26:31] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel chest-access deny
+[23:26:50] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel block-trampling deny
+[23:26:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
+[23:27:14] [Server thread/INFO]: Made InamHilen no longer a server operator
+[23:28:01] [Server thread/INFO]: Made InamHilen a server operator
+[23:28:13] [Server thread/INFO]: Made InamHilen no longer a server operator
+[23:28:52] [Server thread/INFO]: /region <select|flag|migrateuuid|migrateheights|setpriority|teleport|save|flags|addowner|list|removeowner|remove|addmember|redefine|removemember|load|define|claim|toggle-bypass|setparent|info|migratedb>
+[23:29:03] [Server thread/INFO]: /region <select|flag|migrateuuid|migrateheights|setpriority|teleport|save|flags|addowner|list|removeowner|remove|addmember|redefine|removemember|load|define|claim|toggle-bypass|setparent|info|migratedb>
+[23:29:19] [Server thread/INFO]: Too few arguments.
+[23:29:19] [Server thread/INFO]: /region addowner [-n] <id> <owners...>
+[23:29:28] [Server thread/INFO]: Please specify the world with -w world_name.
