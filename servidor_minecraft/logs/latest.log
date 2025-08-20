@@ -376,3 +376,52 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 [22:48:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&kasd&c&lTNT&b&kasd&k
 [22:48:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&kasd&4&lDINAMITA&b&kasd&k
 [22:48:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&kasd&4&lDINAMITA&b&kasd&k
+[22:49:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin NICOLASST
+[22:49:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin Robleis
+[22:50:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin RobleisUtU
+[22:50:12] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin Ruby
+[22:50:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin RubyHoshino
+[22:50:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /stor
+[22:50:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /store
+[22:50:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
+[22:51:33] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Redstone Torch(Redstone.page1.items.14) para 274.56€ con el comprar pilas de pantalla.
+[22:51:44] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Repeater(Redstone.page1.items.19) para 954.88€ con el comprar pilas de pantalla.
+[22:51:51] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Sticky Piston(Redstone.page1.items.24) para 1,397.76€ con el comprar pilas de pantalla.
+[22:51:59] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Cherry Pressure Plate(Redstone.page1.items.25) para 106.24€ con el comprar pilas de pantalla.
+[22:52:09] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Crafter(Redstone.page1.items.2) para 3,216.64€ con el comprar pilas de pantalla.
+[22:52:17] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 128 x Comparator(Redstone.page1.items.18) para 3,127.04€ con el comprar pilas de pantalla.
+[22:53:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
+[22:53:25] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 5 x Lever(Redstone.page1.items.9) para 6.65€ con el comprar pantalla.
+[22:53:31] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 3 x Target(Redstone.page1.items.16) para 192.95€ con el comprar pantalla.
+[22:53:47] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 32 x Redstone Lamp(Redstone.page1.items.13) para 1,458.24€ con el comprar pantalla.
+[22:53:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[22:54:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[22:54:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lCUTE
+[22:54:47] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:54:47] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lCUTE
+[22:54:56] [Async Chat Thread - #0/INFO]: [Not Secure]  OWNERRuby_HoshinoSanCUTE :hi
+[22:55:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lCUTE
+[22:55:11] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:55:11] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lCUTE
+[22:55:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &c&lEZZ
+[22:55:30] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:55:30] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &c&lEZZ
+[22:55:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &m&lHOLA
+[22:55:47] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:55:47] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &m&lHOLA
+[22:56:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lOSHI NO KO
+[22:56:04] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:56:04] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 2 &d&lOSHI server=no world=ko
+[22:56:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lOSHINOKO
+[22:56:11] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:56:11] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lOSHINOKO
+[22:56:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lHOSHINOAI
+[22:56:25] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
+[22:56:25] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lHOSHINOAI
+[22:56:31] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
+[22:56:31] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
+[22:58:46] [User Authenticator #1/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[22:58:47] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of Ruby_HoshinoSan, updating cached skin...
+[22:58:47] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:55287] logged in with entity id 3795 at ([world]992.00261005449, 123.20000004768372, 173.64731492108123)
+[22:58:47] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[22:58:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
