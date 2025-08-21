@@ -522,3 +522,655 @@ expected <block end>, but found '<block mapping start>'
 [20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] Command /rangos successfully register.
 [20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] Command /advanced_command successfully register.
 [20:38:13] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (9 inventories)
+[20:39:50] [User Authenticator #0/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
+[20:39:51] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:39:51] [Server thread/INFO]: Ruby_HoshinoSan[/127.36.204.11:46973] logged in with entity id 255 at ([hypixel]-52.5, 96.0, 0.5)
+[20:39:51] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
+[20:40:18] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rangos
+[20:41:09] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[20:41:16] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /Modalidades
+[20:42:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /cpl
+[20:42:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /cp modalidades
+[20:44:48] [Craft Scheduler Thread - 26 - CommandPanels/ERROR]: Cannot load plugins/CommandPanels/panels/modalidades.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.fileNamesFromDirectory(ReloadCommand.java:99) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.reloadPanelFiles(ReloadCommand.java:77) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.lambda$onCommand$1(ReloadCommand.java:35) ~[CommandPanels.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.21.4.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 12 more
+[20:44:48] [Craft Scheduler Thread - 26 - CommandPanels/ERROR]: Cannot load plugins/CommandPanels/panels/modalidades.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.fileNamesFromDirectory(ReloadCommand.java:102) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.reloadPanelFiles(ReloadCommand.java:77) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.lambda$onCommand$1(ReloadCommand.java:35) ~[CommandPanels.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.21.4.jar:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 12 more
+[20:44:48] [Craft Scheduler Thread - 26 - CommandPanels/INFO]: Error in file: modalidades.yml
+[20:44:48] [Server thread/INFO]: [CommandPanels] Error in: modalidades.yml
+[20:44:48] [Server thread/INFO]: [CommandPanels] Reloaded.
+[20:45:20] [Server thread/INFO]: [CommandPanels] Reloaded.
+[20:45:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[20:45:39] [Server thread/INFO]: Ruby_HoshinoSan has made the advancement [The End?]
+[20:45:40] [Server thread/INFO]: Teleported Ruby_HoshinoSan to w:world_the_end.
+[20:45:42] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[20:45:42] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[20:45:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /kit
+[20:46:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
+[20:46:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /kill @e
+[20:47:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[20:47:38] [Server thread/INFO]: Teleported Ruby_HoshinoSan to w:Parcelas.
+[20:47:51] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /difficulty peaceful
+[20:47:51] [Server thread/INFO]: [Ruby_HoshinoSan: The difficulty has been set to Peaceful]
+[20:48:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg
+[20:48:10] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create
+[20:48:43] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create parcelas 2 Ruby_HoshinoSan
+[20:48:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /day
+[20:48:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sun
+[20:49:00] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
+[20:49:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
+[20:49:07] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //wand
+[20:49:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg all
+[20:49:23] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create all
+[20:49:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create Parcelas
+[20:50:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create parcelas 2 Ruby_HoshinoSan
+[20:50:32] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'Parcelas' have been background saved
+[20:50:37] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg flag parcelas passthrough allow
+[20:50:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg flag parcelas bypass allow
+[20:51:02] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'Parcelas' have been background saved
+[20:51:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg flag -w "Parcelas" parcelas block-break deny
+[20:51:32] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'Parcelas' have been background saved
+[20:51:33] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv create Survival normal
+[20:51:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.4-231-09e9afd (MC: 1.21.4) ---
+[20:51:43] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[20:51:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:43] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:51:43] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait task info below: 
+[20:51:43] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk wait: [( 0,0) in 'Survival']
+[20:51:43] [Paper Watchdog Thread/ERROR]: [ChunkTaskScheduler] Chunk holder: NewChunkHolder{world=Survival, chunkX=0, chunkZ=0, entityChunkFromDisk=false, lastChunkCompletion={chunk_class=net.minecraft.world.level.chunk.ProtoChunk,status=minecraft:initialize_light}, currentGenStatus=minecraft:initialize_light, requestedGenStatus=minecraft:full, generationTask=null, generationTaskStatus=null, priority=BLOCKING, priorityLocked=false, neighbourRequestedPriority=null, effective_priority=BLOCKING, oldTicketLevel=33, currentTicketLevel=33, totalNeighboursUsingThisChunk=6, fullNeighbourChunksLoadedBitset=0, currentChunkStatus=INACCESSIBLE, pendingChunkStatus=INACCESSIBLE, is_unload_safe=ticket_level, killed=false}
+[20:51:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:43] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[20:51:43] [Paper Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: false | State: TIMED_WAITING
+[20:51:43] [Paper Watchdog Thread/ERROR]: 	Stack:
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:150)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:140)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.managedBlock(ServerChunkCache.java:792)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.syncLoad(ServerChunkCache.java:117)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunkFallback(ServerChunkCache.java:151)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerChunkCache.getChunk(ServerChunkCache.java:321)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getChunk(Level.java:1023)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.PlayerRespawnLogic.getOverworldRespawnPos(PlayerRespawnLogic.java:18)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.PlayerRespawnLogic.getSpawnPosInChunk(PlayerRespawnLogic.java:53)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.setInitialSpawn(MinecraftServer.java:822)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.initWorld(MinecraftServer.java:766)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1467)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.createWorld(Bukkit.java:839)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		org.bukkit.WorldCreator.createWorld(WorldCreator.java:502)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:879)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x0000734d61f83018.apply(Unknown Source)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:74)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:877)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x0000734d62abd3d8.apply(Unknown Source)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:272)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x0000734d62abcf68.apply(Unknown Source)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:243)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.LambdaForm$DMH/0x0000734d62ab9000.invokeVirtual(LambdaForm$DMH)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.LambdaForm$MH/0x0000734d62aba800.invoke(LambdaForm$MH)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:157)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.reflect.Method.invoke(Method.java:580)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000734d62a1b660.execute(Unknown Source)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:347)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:341)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000734d62a18468.run(Unknown Source)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000734d60e2c588.run(Unknown Source)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+[20:51:43] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+[20:51:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:43] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:51:43] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:43] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[20:51:43] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 8.6491077681479,0.0,-5.150330782531029
+[20:51:43] [Server thread/INFO]: Preparing spawn area: 0%
+[20:51:44] [Server thread/INFO]: Preparing spawn area: 2%
+[20:51:44] [Server thread/INFO]: Preparing spawn area: 2%
+[20:51:44] [spark-async-sampler-worker-thread/WARN]: [spark] Timed out waiting for world statistics
+[20:51:45] [Server thread/INFO]: Preparing spawn area: 2%
+[20:51:45] [Server thread/INFO]: Preparing spawn area: 2%
+[20:51:46] [Server thread/INFO]: Preparing spawn area: 2%
+[20:51:46] [Server thread/INFO]: Preparing spawn area: 2%
+[20:51:47] [Server thread/INFO]: Preparing spawn area: 8%
+[20:51:47] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 8.700914112831214,0.0,-5.02643770786446
+[20:51:47] [Server thread/INFO]: Preparing spawn area: 14%
+[20:51:47] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 8.726153827447149,0.0,-4.985314110798072
+[20:51:48] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[20:51:48] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[20:51:48] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[20:51:48] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[20:51:48] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is PERMITTED.
+[20:51:48] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[20:51:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[20:51:48] [Server thread/INFO]: Preparing spawn area: 18%
+[20:51:48] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 1.21.4-231-09e9afd (MC: 1.21.4) ---
+[20:51:48] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[20:51:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:48] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:51:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:48] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[20:51:48] [Paper Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: false | State: TIMED_WAITING
+[20:51:48] [Paper Watchdog Thread/ERROR]: 	Stack:
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.executeModerately(MinecraftServer.java:1360)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.prepareLevels(MinecraftServer.java:875)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1472)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.createWorld(Bukkit.java:839)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		org.bukkit.WorldCreator.createWorld(WorldCreator.java:502)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:879)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x0000734d61f83018.apply(Unknown Source)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:74)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:877)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x0000734d62abd3d8.apply(Unknown Source)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:272)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager$$Lambda/0x0000734d62abcf68.apply(Unknown Source)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:243)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.LambdaForm$DMH/0x0000734d62ab9000.invokeVirtual(LambdaForm$DMH)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.LambdaForm$MH/0x0000734d62aba800.invoke(LambdaForm$MH)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.invoke.Invokers$Holder.invokeExact_MT(Invokers$Holder)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl(DirectMethodHandleAccessor.java:157)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.reflect.Method.invoke(Method.java:580)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x0000734d62a1b660.execute(Unknown Source)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:347)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:341)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x0000734d62a18468.run(Unknown Source)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x0000734d60e2c588.run(Unknown Source)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.runWith(Thread.java:1596)
+[20:51:48] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.7/java.lang.Thread.run(Thread.java:1583)
+[20:51:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:48] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:51:48] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:51:48] [Server thread/INFO]: Preparing spawn area: 18%
+[20:51:49] [Server thread/INFO]: Preparing spawn area: 34%
+[20:51:49] [Server thread/INFO]: Preparing spawn area: 51%
+[20:51:49] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.672372840283664,5.26242439581943,-8.315240469648984
+[20:51:49] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:50] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:50] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:50] [Server thread/INFO]: Preparing spawn area: 51%
+[20:51:50] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:50] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:50] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:50] [Server thread/INFO]: Preparing spawn area: 51%
+[20:51:50] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:50] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:51] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:51] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:51] [Server thread/INFO]: Preparing spawn area: 51%
+[20:51:51] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:51] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:51] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:51] [Server thread/INFO]: Preparing spawn area: 51%
+[20:51:51] [Server thread/WARN]: Ruby_HoshinoSan moved too quickly! 10.34836118097622,5.024296331606628,-7.041414876219221
+[20:51:51] [Server thread/INFO]: Time elapsed: 8207 ms
+[20:51:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8243ms or 164 ticks behind
+[20:52:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[20:52:08] [Server thread/INFO]: Teleported Ruby_HoshinoSan to w:Survival.
+[20:52:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //pos2
+[20:52:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set 0
+[20:52:50] [AsyncNotifyKeyedQueue - 1/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
+[20:54:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[20:54:15] [Server thread/INFO]: Teleported Ruby_HoshinoSan to w:hypixel.
+[20:54:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[20:54:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /cpv
+[20:55:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /cpanel Modalidades
+[20:55:44] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //set hand
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[20:57:39] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[20:57:39] [Server thread/ERROR]: Cannot load plugins/zMenu/commands/commands.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        permission: "commandpanels.modal ... 
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommand(ZCommandManager.java:146) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.lambda$loadCommands$1(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommands(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.commands.reload.CommandMenuReload.perform(CommandMenuReload.java:41) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommand.prePerform(VCommand.java:410) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.processRequirements(VCommandManager.java:105) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.onCommand(VCommandManager.java:69) ~[zMenu-1.1.0.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        permission: "commandpanels.modal ... 
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 35 more
+[20:57:39] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (9 inventories)
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[20:58:07] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[20:58:07] [Server thread/ERROR]: Cannot load plugins/zMenu/commands/commands.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        permission: "zmenu.modalidades"
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommand(ZCommandManager.java:146) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.lambda$loadCommands$1(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommands(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.commands.reload.CommandMenuReload.perform(CommandMenuReload.java:41) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommand.prePerform(VCommand.java:410) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.processRequirements(VCommandManager.java:105) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.onCommand(VCommandManager.java:69) ~[zMenu-1.1.0.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        permission: "zmenu.modalidades"
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 35 more
+[20:58:07] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (9 inventories)
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[20:58:27] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[20:58:27] [Server thread/ERROR]: Cannot load plugins/zMenu/commands/commands.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        inventory: Modalidades
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommand(ZCommandManager.java:146) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.lambda$loadCommands$1(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommands(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.commands.reload.CommandMenuReload.perform(CommandMenuReload.java:41) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommand.prePerform(VCommand.java:410) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.processRequirements(VCommandManager.java:105) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.onCommand(VCommandManager.java:69) ~[zMenu-1.1.0.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        inventory: Modalidades
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 35 more
+[20:58:27] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (9 inventories)
+[20:58:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades

@@ -71,8 +71,11 @@ commands:
       - ranks
       - rank
       - rango
-  advanced_command:
-    command: advanced_command
-    permission: "zmenu.admin"
+  chestcommand:
+    command:modalidades
+    inventory: Modalidades
+    permission: "zmenu.modalidades"
     aliases:
-      - zai
+      - modalidades
+      - modalidad
+      - server
