@@ -1450,3 +1450,27 @@ expected <block end>, but found '<block mapping start>'
 [21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] Command /modalidades successfully register.
 [21:14:57] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (4 inventories)
 [21:15:07] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /server
+[21:24:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle
+[21:24:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle off
+[21:24:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle on
+[21:24:29] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle
+[21:24:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle
+[21:24:34] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb help
+[21:24:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle
+[21:24:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle
+[21:24:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle
+[21:24:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /sb toggle on
+[21:25:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /range
+[21:25:56] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rango
+[21:26:54] [Server thread/INFO]: [CommandPanels] Error duplicate panel name: Modalidades
+[21:26:54] [Server thread/INFO]: [CommandPanels] Reloaded.
+[21:27:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /cpr
+[21:27:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rank
+[21:28:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp listgroups
+[21:29:17] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp group vip+ setdisplayname &b&lVIP
+[21:29:17] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (vip+)
+[21:29:17] [luckperms-command-executor/INFO]: [LP] LOG > setdisplayname &b&lVIP
+[21:29:27] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp group vip+ setdisplayname VIP+
+[21:29:27] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (vip+)
+[21:29:27] [luckperms-command-executor/INFO]: [LP] LOG > setdisplayname VIP+
+[21:29:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp listgroups
