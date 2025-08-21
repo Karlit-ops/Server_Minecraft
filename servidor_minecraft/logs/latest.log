@@ -1474,3 +1474,7 @@ expected <block end>, but found '<block mapping start>'
 [21:29:27] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [G] (vip+)
 [21:29:27] [luckperms-command-executor/INFO]: [LP] LOG > setdisplayname VIP+
 [21:29:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp listgroups
+[21:33:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /cpr
+[21:34:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /raks
+[21:34:07] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ranks
+[21:34:13] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidad
