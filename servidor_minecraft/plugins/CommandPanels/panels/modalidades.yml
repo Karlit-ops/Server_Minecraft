@@ -5,6 +5,8 @@ panels:
     title: '&b&lMODALIDADES DEL SERVIDOR'
     commands:
       - Modalidades
+      - Server
+      - Modalidad
     item:
       '0':
         material: GRAY_STAINED_GLASS_PANE

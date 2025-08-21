@@ -72,8 +72,8 @@ commands:
       - rank
       - rango
   chestcommand:
-    command:modalidades
-    inventory: Modalidades
+    command: modalidades
+    inventory: modalidades
     permission: "zmenu.modalidades"
     aliases:
       - modalidades

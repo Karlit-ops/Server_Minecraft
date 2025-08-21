@@ -1174,3 +1174,216 @@ expected <block end>, but found '<block mapping start>'
 	... 35 more
 [20:58:27] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (9 inventories)
 [20:58:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/modalidades.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[21:05:05] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[21:05:05] [Server thread/ERROR]: Cannot load plugins/zMenu/commands/commands.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        inventory: Modalidades
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommand(ZCommandManager.java:146) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.lambda$loadCommands$1(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommands(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.commands.reload.CommandMenuReload.perform(CommandMenuReload.java:41) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommand.prePerform(VCommand.java:410) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.processRequirements(VCommandManager.java:105) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.onCommand(VCommandManager.java:69) ~[zMenu-1.1.0.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        inventory: Modalidades
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 35 more
+[21:05:05] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (10 inventories)
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/modalidades.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[21:05:37] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[21:05:37] [Server thread/ERROR]: Cannot load plugins/zMenu/commands/commands.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        inventory: modalidades
+        ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommand(ZCommandManager.java:146) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.lambda$loadCommands$1(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.ZCommandManager.loadCommands(ZCommandManager.java:118) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.commands.reload.CommandMenuReload.perform(CommandMenuReload.java:41) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommand.prePerform(VCommand.java:410) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.processRequirements(VCommandManager.java:105) ~[zMenu-1.1.0.2.jar:?]
+	at zMenu-1.1.0.2.jar/fr.maxlego08.menu.command.VCommandManager.onCommand(VCommandManager.java:69) ~[zMenu-1.1.0.2.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1018) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:1003) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:478) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:428) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1738) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1529) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1251) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 3:
+      Rank:
+      ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 76, column 5:
+        inventory: modalidades
+        ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 35 more
+[21:05:37] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (10 inventories)
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/modalidades.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] Command /rangos successfully register.
+[21:06:39] [Server thread/INFO]: [zMenu v1.1.0.2] Command /modalidades successfully register.
+[21:06:39] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (10 inventories)
+[21:06:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidad
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] Command /rangos successfully register.
+[21:07:17] [Server thread/INFO]: [zMenu v1.1.0.2] Command /modalidades successfully register.
+[21:07:17] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (9 inventories)
+[21:07:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidad
+[21:07:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidad
+[21:07:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
+[21:08:30] [Server thread/INFO]: [CommandPanels] Reloaded.
+[21:08:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidad
