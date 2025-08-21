@@ -1387,3 +1387,66 @@ expected <block end>, but found '<block mapping start>'
 [21:07:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidades
 [21:08:30] [Server thread/INFO]: [CommandPanels] Reloaded.
 [21:08:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /modalidad
+[21:10:42] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mvlist
+[21:10:49] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mvinv
+[21:10:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv list
+[21:11:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv create Beta custom
+[21:11:25] [Server thread/ERROR]: [Multiverse-Core] Failed to create bukkit world: Beta
+[21:11:25] [Server thread/WARN]: java.lang.IllegalArgumentException: Illegal dimension (CUSTOM)
+[21:11:25] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.createWorld(CraftServer.java:1325)
+[21:11:25] [Server thread/WARN]: 	at org.bukkit.Bukkit.createWorld(Bukkit.java:839)
+[21:11:25] [Server thread/WARN]: 	at org.bukkit.WorldCreator.createWorld(WorldCreator.java:502)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.lambda$createBukkitWorld$9f2048fa$1(WorldManager.java:879)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.vavr.control.Try.of(Try.java:74)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createBukkitWorld(WorldManager.java:877)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.doCreateWorld(WorldManager.java:272)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.utils.result.Attempt.mapAttempt(Attempt.java:212)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.world.WorldManager.createWorld(WorldManager.java:243)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.commands.CreateCommand.onCreateCommand(CreateCommand.java:80)
+[21:11:25] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[21:11:25] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[21:11:25] [Server thread/WARN]: 	at multiverse-core-5.2.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[21:11:25] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:82)
+[21:11:25] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:450)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:347)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:341)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2215)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2188)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1448)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1428)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1422)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1379)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1387)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1264)
+[21:11:25] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[21:11:25] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:14:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rank
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] Command /rangos successfully register.
+[21:14:57] [Server thread/INFO]: [zMenu v1.1.0.2] Command /modalidades successfully register.
+[21:14:57] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (4 inventories)
+[21:15:07] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /server
