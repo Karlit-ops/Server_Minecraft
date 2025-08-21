@@ -1,243 +1,248 @@
-[22:28:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
-[22:28:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[22:28:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[22:28:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
-[22:28:59] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[20:29:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[20:29:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
+[20:29:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:29:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/zMenu-1.1.0.2.jar'...
+[20:30:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/zMenu-1.1.0.2.jar' in 1551ms.
+[20:30:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 27 plugins
+[20:30:01] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - EconomyShopGUI (6.14.4)
-[22:28:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
- - AdvancedBanX (3.1.0), Essentials (2.21.2-dev+31-9ef4fc3), EssentialsChat (2.21.2-dev+31-9ef4fc3), EssentialsSpawn (2.21.2-dev+31-9ef4fc3), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1129;f295594), Geyser-Spigot (2.8.3-SNAPSHOT), LuckPerms (5.5.9), Multiverse-Core (5.2.0), Multiverse-Inventories (5.1.1), Multiverse-NetherPortals (5.0.3), Multiverse-Portals (5.1.0), Multiverse-SignPortals (5.0.1), PlaceholderAPI (2.11.6), PlayerKits2 (1.18.2), ProtectionStones (2.10.5), SkinsRestorer (15.7.9), SternalBoard (2.3.2), TAB (5.2.4), Tebex (2.2.1), Vault (1.7.3-b131), ViaBackwards (5.4.1), ViaVersion (5.4.2), WorldGuard (7.0.13+82fdc65), floodgate (2.2.4-SNAPSHOT (b118-40d320a))
-[22:29:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:29:07] [ServerMain/INFO]: Loaded 1370 recipes
-[22:29:07] [ServerMain/INFO]: Loaded 1481 advancements
-[22:29:07] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[22:29:07] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 255.1ms
-[22:29:07] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[22:29:07] [Server thread/INFO]: Loading properties
-[22:29:08] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[22:29:08] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[22:29:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:29:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:29:09] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[22:29:09] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[22:29:09] [Server thread/INFO]: Default game type: SURVIVAL
-[22:29:09] [Server thread/INFO]: Generating keypair
-[22:29:09] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:29:09] [Server thread/INFO]: Using epoll channel type
-[22:29:09] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[22:29:09] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[22:29:11] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[22:29:11] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[22:29:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[22:29:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[22:29:12] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[22:29:12] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[22:29:12] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
-[22:29:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[22:29:13] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[22:29:13] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[22:29:13] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.2.0
-[22:29:13] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
-[22:29:13] [Server thread/WARN]: 
+[20:30:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (26):
+ - AdvancedBanX (3.1.0), CommandPanels (3.22.5), Essentials (2.21.2-dev+31-9ef4fc3), EssentialsChat (2.21.2-dev+31-9ef4fc3), EssentialsSpawn (2.21.2-dev+31-9ef4fc3), FastAsyncWorldEdit (2.13.1-SNAPSHOT-1129;f295594), Geyser-Spigot (2.8.3-SNAPSHOT), LuckPerms (5.5.9), Multiverse-Core (5.2.0), Multiverse-Inventories (5.1.1), Multiverse-NetherPortals (5.0.3), Multiverse-Portals (5.1.0), Multiverse-SignPortals (5.0.1), PlaceholderAPI (2.11.6), PlayerKits2 (1.18.2), ProtectionStones (2.10.5), SkinsRestorer (15.7.9), SternalBoard (2.3.2), TAB (5.2.4), Tebex (2.2.1), Vault (1.7.3-b131), ViaBackwards (5.4.1), ViaVersion (5.4.2), WorldGuard (7.0.13+82fdc65), floodgate (2.2.4-SNAPSHOT (b118-40d320a)), zMenu (1.1.0.2)
+[20:30:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:30:10] [ServerMain/INFO]: Loaded 1370 recipes
+[20:30:10] [ServerMain/INFO]: Loaded 1481 advancements
+[20:30:10] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[20:30:10] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 247.6ms
+[20:30:10] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[20:30:10] [Server thread/INFO]: Loading properties
+[20:30:10] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[20:30:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:30:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:30:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:30:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:30:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[20:30:11] [Server thread/INFO]: Default game type: SURVIVAL
+[20:30:11] [Server thread/INFO]: Generating keypair
+[20:30:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:30:12] [Server thread/INFO]: Using epoll channel type
+[20:30:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:30:12] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:30:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[20:30:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[20:30:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:30:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:30:15] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:30:15] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:30:15] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.9
+[20:30:16] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:30:16] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[20:30:16] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:30:16] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.2.0
+[20:30:16] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
+[20:30:16] [Server thread/WARN]: 
 **********************************************
 ** You are using the Spigot-mapped FAWE jar on a modern Paper version.
 ** This will result in slower first-run times and wasted disk space from plugin remapping.
 ** Download the Paper FAWE jar from Modrinth to avoid this: https://modrinth.com/plugin/fastasyncworldedit/
 **********************************************
-[22:29:15] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@28da1579]
-[22:29:15] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[22:29:15] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[22:29:15] [Server thread/INFO]: [floodgate] Took 779ms to boot Floodgate
-[22:29:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+31-9ef4fc3
-[22:29:15] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.1.0
-[22:29:15] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
-[22:29:15] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
-[22:29:16] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[22:29:16] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[22:29:16] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+31-9ef4fc3
-[22:29:16] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
-[22:29:16] [Server thread/INFO]: [Multiverse-NetherPortals] Loading server plugin Multiverse-NetherPortals v5.0.3
-[22:29:16] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.2
-[22:29:16] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+31-9ef4fc3
-[22:29:16] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.5
-[22:29:16] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.1
-[22:29:16] [Server thread/INFO]: [AdvancedBanX] Loading server plugin AdvancedBanX v3.1.0
-[22:29:16] [Server thread/INFO]: [SternalBoard] Loading server plugin SternalBoard v2.3.2
-[22:29:16] [Server thread/INFO]: [Tebex] Loading server plugin Tebex v2.2.1
-[22:29:16] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.4
-[22:29:16] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.4
-[22:29:16] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
-[22:29:16] [Server thread/INFO]: [Multiverse-SignPortals] Loading server plugin Multiverse-SignPortals v5.0.1
-[22:29:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:29:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
-[22:29:17] [Server thread/INFO]:         __    
-[22:29:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.9
-[22:29:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[22:29:17] [Server thread/INFO]: 
-[22:29:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[22:29:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[22:29:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[22:29:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2251ms)
-[22:29:18] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[22:29:18] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[22:29:19] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[22:29:19] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[22:29:19] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[22:29:19] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
-[22:29:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
-[22:29:19] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
-[22:29:19] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[22:29:19] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[22:29:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
-[22:29:21] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
-[22:29:21] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 32 build(s) out of date.
+[20:30:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@18644ccc]
+[20:30:17] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:30:18] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[20:30:18] [Server thread/INFO]: [floodgate] Took 938ms to boot Floodgate
+[20:30:18] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2-dev+31-9ef4fc3
+[20:30:18] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.1.0
+[20:30:18] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[20:30:18] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.3-SNAPSHOT
+[20:30:19] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:30:19] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:30:19] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2-dev+31-9ef4fc3
+[20:30:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.1
+[20:30:19] [Server thread/INFO]: [Multiverse-NetherPortals] Loading server plugin Multiverse-NetherPortals v5.0.3
+[20:30:19] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.18.2
+[20:30:19] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.2-dev+31-9ef4fc3
+[20:30:19] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.5
+[20:30:19] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.1.1
+[20:30:19] [Server thread/INFO]: [AdvancedBanX] Loading server plugin AdvancedBanX v3.1.0
+[20:30:19] [Server thread/INFO]: [SternalBoard] Loading server plugin SternalBoard v2.3.2
+[20:30:19] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v3.22.5
+[20:30:19] [Server thread/INFO]: [Tebex] Loading server plugin Tebex v2.2.1
+[20:30:19] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.14.4
+[20:30:19] [Server thread/INFO]: [zMenu] Loading server plugin zMenu v1.1.0.2
+[20:30:19] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.4
+[20:30:19] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.9
+[20:30:19] [Server thread/INFO]: [Multiverse-SignPortals] Loading server plugin Multiverse-SignPortals v5.0.1
+[20:30:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:30:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.9
+[20:30:20] [Server thread/INFO]:         __    
+[20:30:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.9
+[20:30:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:30:20] [Server thread/INFO]: 
+[20:30:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:30:21] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:30:21] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:30:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2483ms)
+[20:30:22] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:30:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:30:22] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:30:22] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:30:22] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:30:22] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.13.1-SNAPSHOT-1129;f295594
+[20:30:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:30:22] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:30:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:30:22] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:30:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[20:30:24] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.9
+[20:30:24] [ForkJoinPool.commonPool-worker-1/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 32 build(s) out of date.
 You are running build 1129, the latest version is build 1161.
 Update at https://ci.athion.net/job/FastAsyncWorldEdit
-[22:29:22] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
-[22:29:22] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
-[22:29:22] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[22:29:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.9]
-[22:29:23] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[22:29:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:29:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:29:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:29:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:29:23] [Server thread/INFO]: Preparing level "world"
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[22:29:23] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[22:29:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:29:23] [Server thread/INFO]: Preparing spawn area: 0%
-[22:29:23] [Server thread/INFO]: Preparing spawn area: 0%
-[22:29:24] [Server thread/INFO]: Preparing spawn area: 0%
-[22:29:24] [Server thread/INFO]: Time elapsed: 1432 ms
-[22:29:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:29:24] [Server thread/INFO]: Preparing spawn area: 0%
-[22:29:25] [Server thread/INFO]: Time elapsed: 362 ms
-[22:29:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:29:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:29:25] [Server thread/INFO]: Time elapsed: 126 ms
-[22:29:25] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[22:29:25] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
-[22:29:25] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[22:29:25] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[22:29:25] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.2.0
-[22:29:26] [Server thread/INFO]: Preparing start region for dimension minecraft:hypixel
-[22:29:26] [Server thread/INFO]: Preparing spawn area: 0%
-[22:29:26] [Server thread/INFO]: Time elapsed: 363 ms
-[22:29:26] [Server thread/INFO]: Preparing start region for dimension minecraft:parcelas
-[22:29:26] [Server thread/INFO]: Preparing spawn area: 0%
-[22:29:26] [Server thread/INFO]: Time elapsed: 146 ms
-[22:29:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.2.0]
-[22:29:27] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[22:29:27] [Server thread/INFO]: [Multiverse-Core] Version 5.2.0 (API v5.2) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[22:29:27] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[22:29:27] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
-[22:29:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+31-9ef4fc3
-[22:29:28] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[22:29:28] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[22:29:28] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[22:29:28] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[22:29:28] [Server thread/INFO]: [Essentials] Using locale en
-[22:29:29] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[22:29:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[22:29:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[22:29:29] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[22:29:29] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.1.0
-[22:29:29] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[22:29:29] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
-[22:29:29] [Server thread/INFO]: [Multiverse-Portals 5.1.0]  Enabled - By Rigby, fernferret and benwoo1110
-[22:29:29] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[22:29:29] [Server thread/INFO]: [WorldGuard] (hypixel) TNT ignition is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (hypixel) Lighters are PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (hypixel) Lava fire is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (hypixel) Fire spread is UNRESTRICTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hypixel'
-[22:29:29] [Server thread/INFO]: [WorldGuard] (Parcelas) TNT ignition is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (Parcelas) Lighters are PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (Parcelas) Lava fire is PERMITTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] (Parcelas) Fire spread is UNRESTRICTED.
-[22:29:29] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Parcelas'
-[22:29:29] [Server thread/INFO]: [WorldGuard] Loading region data...
-[22:29:29] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
-[22:29:30] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+31-9ef4fc3
-[22:29:30] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[22:29:30] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
-[22:29:30] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.3
-[22:29:30] [Server thread/INFO]: [Multiverse-NetherPortals 5.0.3]  Enabled - By Rigby, fernferret and benwoo1110
-[22:29:30] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.2
-[22:29:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.2]
-[22:29:31] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.2
-[22:29:31] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
-[22:29:31] [Server thread/INFO]: There is a new version available. (1.18.4)
-[22:29:31] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
-[22:29:31] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+31-9ef4fc3
-[22:29:31] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
-[22:29:31] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.5
-[22:29:31] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
-[22:29:31] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
-[22:29:31] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
-[22:29:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.10.5]
-[22:29:31] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
-[22:29:31] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
-[22:29:31] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
-[22:29:31] [Server thread/INFO]: [ProtectionStones] Building region cache...
-[22:29:31] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
-[22:29:31] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
-[22:29:31] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
-[22:29:31] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.1
-[22:29:31] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.1.1]
-[22:29:31] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[22:29:32] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.1 (API v5.1) Enabled - By dumptruckman and benwoo1110
-[22:29:32] [Server thread/INFO]: [AdvancedBanX] Enabling AdvancedBanX v3.1.0
-[22:29:32] [Server thread/INFO]: [AdvancedBanX] 
+[20:30:25] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.4.
+[20:30:25] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[20:30:25] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:30:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.9]
+[20:30:25] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[20:30:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:30:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:30:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:30:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:30:25] [Server thread/INFO]: Preparing level "world"
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.9
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: eb4ae0c
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:30:25] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:30:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:30:26] [Server thread/INFO]: Preparing spawn area: 0%
+[20:30:27] [Server thread/INFO]: Preparing spawn area: 0%
+[20:30:27] [Server thread/INFO]: Preparing spawn area: 0%
+[20:30:27] [Server thread/INFO]: Time elapsed: 1426 ms
+[20:30:27] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:30:27] [Server thread/INFO]: Preparing spawn area: 0%
+[20:30:28] [Server thread/INFO]: Time elapsed: 240 ms
+[20:30:28] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:30:28] [Server thread/INFO]: Preparing spawn area: 0%
+[20:30:28] [Server thread/INFO]: Time elapsed: 143 ms
+[20:30:28] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[20:30:28] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[20:30:28] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[20:30:28] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:30:28] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.2.0
+[20:30:29] [Server thread/INFO]: Preparing start region for dimension minecraft:hypixel
+[20:30:29] [Server thread/INFO]: Preparing spawn area: 0%
+[20:30:29] [Server thread/INFO]: Time elapsed: 386 ms
+[20:30:29] [Server thread/INFO]: Preparing start region for dimension minecraft:parcelas
+[20:30:29] [Server thread/INFO]: Preparing spawn area: 0%
+[20:30:29] [Server thread/INFO]: Time elapsed: 138 ms
+[20:30:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.2.0]
+[20:30:30] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[20:30:30] [Server thread/INFO]: [Multiverse-Core] Version 5.2.0 (API v5.2) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[20:30:30] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[20:30:30] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b118-40d320a)
+[20:30:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2-dev+31-9ef4fc3
+[20:30:30] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[20:30:31] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:30:31] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:30:31] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[20:30:31] [Server thread/INFO]: [Essentials] Using locale en
+[20:30:31] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:30:31] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:30:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:30:31] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:30:31] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.1.0
+[20:30:32] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[20:30:32] [Server thread/INFO]: [Multiverse-Portals] Found FastAsyncWorldEdit. Using it for selections.
+[20:30:32] [Server thread/INFO]: [Multiverse-Portals 5.1.0]  Enabled - By Rigby, fernferret and benwoo1110
+[20:30:32] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:30:32] [Server thread/INFO]: [WorldGuard] (hypixel) TNT ignition is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (hypixel) Lighters are PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (hypixel) Lava fire is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (hypixel) Fire spread is UNRESTRICTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hypixel'
+[20:30:32] [Server thread/INFO]: [WorldGuard] (Parcelas) TNT ignition is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (Parcelas) Lighters are PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (Parcelas) Lava fire is PERMITTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] (Parcelas) Fire spread is UNRESTRICTED.
+[20:30:32] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Parcelas'
+[20:30:32] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:30:32] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.3-SNAPSHOT
+[20:30:33] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2-dev+31-9ef4fc3
+[20:30:33] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[20:30:33] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.1
+[20:30:33] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.3
+[20:30:33] [Server thread/INFO]: [Multiverse-NetherPortals 5.0.3]  Enabled - By Rigby, fernferret and benwoo1110
+[20:30:33] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.18.2
+[20:30:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.18.2]
+[20:30:33] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.18.2
+[20:30:33] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[20:30:34] [Server thread/INFO]: There is a new version available. (1.18.4)
+[20:30:34] [Server thread/INFO]: You can download it at: https://modrinth.com/plugin/playerkits-2
+[20:30:34] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.2-dev+31-9ef4fc3
+[20:30:34] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[20:30:34] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.5
+[20:30:34] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[20:30:34] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[20:30:34] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
+[20:30:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.10.5]
+[20:30:34] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[20:30:34] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[20:30:34] [Server thread/INFO]: [ProtectionStones] - IRON_ORE (2)
+[20:30:34] [Server thread/INFO]: [ProtectionStones] - COAL_ORE (1)
+[20:30:34] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[20:30:34] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[20:30:34] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[20:30:34] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[20:30:34] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.1.1
+[20:30:35] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-inventories [5.1.1]
+[20:30:35] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[20:30:35] [Server thread/INFO]: [Multiverse-Inventories] Version 5.1.1 (API v5.1) Enabled - By dumptruckman and benwoo1110
+[20:30:35] [Server thread/INFO]: [AdvancedBanX] Enabling AdvancedBanX v3.1.0
+[20:30:36] [Server thread/INFO]: [AdvancedBanX] 
 
 []=====[Enabling AdvancedBanX]=====[]
 | Information:
@@ -252,448 +257,268 @@ Update at https://ci.athion.net/job/FastAsyncWorldEdit
 |   There is a new version available! [[3.1.0]]
 []================================[]
  
-[22:29:32] [Server thread/INFO]: [SternalBoard] Enabling SternalBoard v2.3.2
-[22:29:32] [Server thread/INFO]: [INFO] Starting SternalBoard Plugin
-[22:29:32] [Server thread/INFO]: [Tebex] Enabling Tebex v2.2.1
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.4
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-es.yml as language file
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carga completada 16 configuraciones de la sección de /secciones/
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completada la carga de la configuración de 16 tiendas desde /shops/
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Actualizando la configuración de la tienda...
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Se completó la carga de 1 proveedor(es) de economía para todas las 14 secciones de tiendas.
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando minecraft versión 1.21.4...
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Proveedor spawner establecido en AUTO en la configuración
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
-[22:29:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: El modo de depuración está habilitado.
-[22:29:33] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Cargando todos los elementos...
-[22:29:33] [OkHttp https://plugin.tebex.io/.../INFO]: [Tebex] Connected to Minecraft Server - Minecraft: Java Edition server.
-[22:29:34] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Iniciado - Tomó 815ms para completar
-[22:29:34] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Hay una actualización disponible para EconomyShopGUI, estás corriendo la versión 6.14.4 pero se encontró la versión 6.14.5.
-[22:29:34] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
-[22:29:34] [Server thread/INFO]: [TAB] Enabling TAB v5.2.4
-[22:29:34] [Server thread/INFO]: [TAB] Enabled in 208ms
-[22:29:34] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v5.0.1
-[22:29:34] [Server thread/INFO]: [Multiverse-SignPortals 5.0.1]  Enabled - By Rigby and fernferret
-[22:29:35] [Server thread/INFO]: [spark] Starting background profiler...
-[22:29:36] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[22:29:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:29:36] [Server thread/INFO]: [Geyser-Spigot] 
-[22:29:36] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b912 (git-master-dc5fc8f)
-[22:29:36] [Server thread/INFO]: [Geyser-Spigot] 
-[22:29:36] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[22:29:39] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2549
-[22:29:39] [Server thread/INFO]: [Geyser-Spigot] Done (3.403s)! Run /geyser help for help!
-[22:29:39] [Server thread/INFO]: Done preparing level "world" (16.695s)
-[22:29:39] [Server thread/INFO]: Running delayed init tasks
-[22:29:39] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[22:29:39] [Craft Scheduler Thread - 8 - Essentials/INFO]: [Essentials] Fetching version information...
-[22:29:39] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
-[22:29:39] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
-[22:29:39] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
-[22:29:39] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[22:29:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[22:29:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[22:29:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
-[22:29:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
-[22:29:39] [Server thread/INFO]: 4 placeholder hook(s) registered!
-[22:29:39] [Server thread/INFO]: [Multiverse-Inventories] First run!
-[22:29:39] [Server thread/INFO]: Checking for conflicts in groups...
-[22:29:39] [Server thread/INFO]: No group conflicts found!
-[22:29:39] [Server thread/INFO]: Done (49.743s)! For help, type "help"
-[22:29:40] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] You're 26 EssentialsX dev build(s) out of date!
-[22:29:40] [Craft Scheduler Thread - 8 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
-[22:29:40] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
-[22:29:49] [Server thread/INFO]: You can only use /ps reload, /ps admin, /ps give from console.
-[22:29:55] [Server thread/INFO]: ===== PS Admin Help =====
-> /ps admin help
-[22:29:55] [Server thread/INFO]: > /ps admin version
-[22:29:55] [Server thread/INFO]: > /ps admin hide
-[22:29:55] [Server thread/INFO]: > /ps admin unhide
-[22:29:55] [Server thread/INFO]: > /ps admin cleanup remove [days] [-t typealias (optional)] [world (console)]
-[22:29:55] [Server thread/INFO]: > /ps admin cleanup disown [days] [-t typealias (optional)] [world (console)]
-[22:29:55] [Server thread/INFO]: > /ps admin flag [world] [flagname] [value|null|default]
-[22:29:55] [Server thread/INFO]: > /ps admin lastlogon [player]
-[22:29:55] [Server thread/INFO]: > /ps admin lastlogons
-[22:29:55] [Server thread/INFO]: > /ps admin stats [player (optional)]
-[22:29:55] [Server thread/INFO]: > /ps admin recreate
-[22:29:55] [Server thread/INFO]: > /ps admin debug
-[22:29:55] [Server thread/INFO]: > /ps admin settaxautopayers
-[22:29:55] [Server thread/INFO]: > /ps admin forcemerge [world]
-[22:29:55] [Server thread/INFO]: > /ps admin changeblock [world] [oldtypealias] [newtypealias]
-[22:29:55] [Server thread/INFO]: > /ps admin changeregiontype [world] [oldtype] [newtype]
-[22:29:55] [Server thread/INFO]: > /ps admin fixregions
-[22:33:12] [Server thread/INFO]: Reloading config...
-[22:33:12] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
-[22:33:12] [Server thread/INFO]: [ProtectionStones] - IRON_ORE (2)
-[22:33:12] [Server thread/INFO]: [ProtectionStones] - COAL_ORE (1)
-[22:33:12] [Server thread/INFO]: Completed config reload!
-[22:34:34] [Server thread/INFO]: No such command. please type /ps help for more info
-[22:34:39] [Server thread/INFO]: You can only use /ps reload, /ps admin, /ps give from console.
-[22:35:16] [Server thread/INFO]: Player not found. (Ruby_HoshinoSan)
-[22:35:26] [User Authenticator #0/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
-[22:35:28] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:35:28] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:38461] logged in with entity id 301 at ([world]949.1599362847321, -1.0, 399.2665845690304)
-[22:35:28] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
-[22:35:36] [Server thread/INFO]: Gave 1 to OWNERRuby_HoshinoSan.
-[22:36:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /pl
-[22:36:22] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect give Ruby_HoshinoSan minecraft:night_vision
-[22:36:22] [Server thread/INFO]: [Ruby_HoshinoSan: Applied effect Night Vision to Ruby_HoshinoSan]
-[22:36:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect give Ruby_HoshinoSan minecraft:night_vision infinite
-[22:36:25] [Server thread/INFO]: [Ruby_HoshinoSan: Applied effect Night Vision to Ruby_HoshinoSan]
-[22:36:28] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /effect give Ruby_HoshinoSan minecraft:night_vision infinite
-[22:36:39] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
-[22:36:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ps give 2
-[22:36:52] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ps give 2 Ruby_HoshinoSan
-[22:37:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[22:37:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ps get menu
-[22:37:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ps get 2
-[22:37:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ps get 1
-[22:40:08] [Server thread/INFO]: Reloading config...
-[22:40:08] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
-[22:40:08] [Server thread/INFO]: [ProtectionStones] - IRON_ORE (2)
-[22:40:08] [Server thread/INFO]: [ProtectionStones] - COAL_ORE (1)
-[22:40:08] [Server thread/INFO]: Completed config reload!
-[22:40:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /ps get 1
-[22:40:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[22:42:39] [Server thread/INFO]: Reloading config...
-[22:42:39] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
-[22:42:39] [Server thread/INFO]: [ProtectionStones] - IRON_ORE (2)
-[22:42:39] [Server thread/INFO]: [ProtectionStones] - COAL_ORE (1)
-[22:42:39] [Server thread/INFO]: Completed config reload!
-[22:42:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[22:43:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
-[22:43:41] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 3
-[22:43:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 1
-[22:44:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /store
-[22:44:58] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
-[22:45:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
-[22:46:01] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 2048 x Tnt(Blocks.page1.items.11) para 218,275.84€ con el comprar pilas de pantalla.
-[22:47:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &m
-[22:47:20] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /essentials:kit color
-[22:48:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&kasd&c&lTNT&b&kasd&k
-[22:48:32] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&kasd&4&lDINAMITA&b&kasd&k
-[22:48:35] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /irename &b&kasd&4&lDINAMITA&b&kasd&k
-[22:49:19] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin NICOLASST
-[22:49:54] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin Robleis
-[22:50:01] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin RobleisUtU
-[22:50:12] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin Ruby
-[22:50:21] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /skin RubyHoshino
-[22:50:46] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /stor
-[22:50:50] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /store
-[22:50:53] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
-[22:51:33] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Redstone Torch(Redstone.page1.items.14) para 274.56€ con el comprar pilas de pantalla.
-[22:51:44] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Repeater(Redstone.page1.items.19) para 954.88€ con el comprar pilas de pantalla.
-[22:51:51] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Sticky Piston(Redstone.page1.items.24) para 1,397.76€ con el comprar pilas de pantalla.
-[22:51:59] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Cherry Pressure Plate(Redstone.page1.items.25) para 106.24€ con el comprar pilas de pantalla.
-[22:52:09] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 64 x Crafter(Redstone.page1.items.2) para 3,216.64€ con el comprar pilas de pantalla.
-[22:52:17] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 128 x Comparator(Redstone.page1.items.18) para 3,127.04€ con el comprar pilas de pantalla.
-[22:53:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /shop
-[22:53:25] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 5 x Lever(Redstone.page1.items.9) para 6.65€ con el comprar pantalla.
-[22:53:31] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 3 x Target(Redstone.page1.items.16) para 192.95€ con el comprar pantalla.
-[22:53:47] [Server thread/INFO]: Shop >> Ruby_HoshinoSan compró 32 x Redstone Lamp(Redstone.page1.items.13) para 1,458.24€ con el comprar pantalla.
-[22:53:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /gm 0
-[22:54:05] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
-[22:54:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lCUTE
-[22:54:47] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:54:47] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lCUTE
-[22:54:56] [Async Chat Thread - #0/INFO]: [Not Secure]  OWNERRuby_HoshinoSanCUTE :hi
-[22:55:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lCUTE
-[22:55:11] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:55:11] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lCUTE
-[22:55:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &c&lEZZ
-[22:55:30] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:55:30] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &c&lEZZ
-[22:55:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &m&lHOLA
-[22:55:47] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:55:47] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &m&lHOLA
-[22:56:04] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lOSHI NO KO
-[22:56:04] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:56:04] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 2 &d&lOSHI server=no world=ko
-[22:56:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lOSHINOKO
-[22:56:11] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:56:11] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lOSHINOKO
-[22:56:25] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &d&lHOSHINOAI
-[22:56:25] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:56:25] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &d&lHOSHINOAI
-[22:56:31] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
-[22:56:31] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
-[22:58:46] [User Authenticator #1/INFO]: UUID of player Ruby_HoshinoSan is 43bf2f0e-2a64-3711-b429-89c455432eb6
-[22:58:47] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of Ruby_HoshinoSan, updating cached skin...
-[22:58:47] [Server thread/INFO]: Ruby_HoshinoSan[/127.126.221.222:55287] logged in with entity id 3795 at ([world]992.00261005449, 123.20000004768372, 173.64731492108123)
-[22:58:47] [Server thread/INFO]: [+] OWNER Ruby_HoshinoSan
-[22:58:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
-[22:59:14] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON
-[22:59:14] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:59:14] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &4&lDEMON
-[22:59:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON
-[22:59:30] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:59:30] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 1 &4&lDEMON
-[22:59:45] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON hypixel
-[22:59:45] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:59:45] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 2 &4&lDEMON server=hypixel
-[22:59:55] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /lp user Ruby_HoshinoSan meta setsuffix &4&lDEMON mvinv:worldgroup
-[22:59:55] [luckperms-command-executor/INFO]: [LP] LOG > (Ruby_HoshinoSan) [U] (ruby_hoshinosan)
-[22:59:55] [luckperms-command-executor/INFO]: [LP] LOG > meta setsuffix 2 &4&lDEMON server=mvinv:worldgroup
-[23:00:06] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /mv tp hypixel
-[23:00:11] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /fly
-[23:00:30] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard
-[23:00:36] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard help
-[23:00:47] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard profile
-[23:02:03] [Server thread/INFO]: Ruby_HoshinoSan issued server command: //worldeditregion
-[23:02:40] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /worldguard:region
-[23:02:57] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg
-[23:03:26] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg select
-[23:03:38] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create
-[23:04:08] [Server thread/INFO]: Ruby_HoshinoSan issued server command: /rg create -ng hypixel 1 Ruby_HoshinoSan
-[23:04:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:05:09] [Server thread/INFO]: Ruby_HoshinoSan lost connection: Disconnected
-[23:05:09] [Server thread/INFO]: [-] OWNER Ruby_HoshinoSan
-[23:06:01] [Server thread/INFO]: Unknown or incomplete command, see below for error
-whitelist<--[HERE]
-[23:06:05] [Server thread/INFO]: Whitelist is now turned on
-[23:06:26] [User Authenticator #2/INFO]: UUID of player InamHilen is 4c617bca-e997-337d-8ab1-e1c108567f0c
-[23:06:26] [Server thread/INFO]: Disconnecting InamHilen (/127.126.221.222:53173): You are not whitelisted on this server!
-[23:06:27] [Server thread/INFO]: InamHilen (/127.126.221.222:53173) lost connection: You are not whitelisted on this server!
-[23:06:39] [Server thread/INFO]: Added InamHilen to the whitelist
-[23:06:46] [User Authenticator #2/INFO]: UUID of player InamHilen is 4c617bca-e997-337d-8ab1-e1c108567f0c
-[23:06:48] [Server thread/INFO]: InamHilen[/127.126.221.222:39045] logged in with entity id 5290 at ([world]1138.5, 68.0, 219.5)
-[23:06:48] [Server thread/INFO]: [+]  InamHilen
-[23:06:48] [Server thread/INFO]: InamHilen has made the advancement [Getting an Upgrade]
-[23:08:21] [Server thread/INFO]: InamHilen has made the advancement [Diamonds!]
-[23:08:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v 
-[23:08:34] [Server thread/INFO]: Error: Player not found.
-[23:08:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v InamHilen
-[23:08:39] [Server thread/INFO]: Vanish for InamHilen: enabled
-[23:08:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v InamHilen
-[23:08:48] [Server thread/INFO]: Vanish for InamHilen: disabled
-[23:08:51] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /v InamHilen
-[23:08:51] [Server thread/INFO]: Vanish for InamHilen: enabled
-[23:09:41] [luckperms-command-executor/INFO]: [LP] inamhilen had their existing parent groups cleared, and now only inherits vip+ in context global.
-[23:09:42] [TAB Processing Thread/INFO]: [TAB] [WARN] Player InamHilen's group (vip+) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[23:10:09] [Server thread/INFO]: InamHilen issued server command: /fly
-[23:10:09] [Server thread/INFO]: [Essentials] InamHilen was denied access to command.
-[23:10:15] [Server thread/INFO]: Made InamHilen a server operator
-[23:10:23] [Async Chat Thread - #1/INFO]: [Not Secure]  VIP+InamHilen :buenas
-[23:10:30] [Server thread/INFO]: InamHilen issued server command: /v
-[23:10:33] [Server thread/INFO]: InamHilen issued server command: /v
-[23:10:52] [Server thread/INFO]: InamHilen issued server command: /effect give InamHilen minecraft:night_vision infinite
-[23:10:52] [Server thread/INFO]: [InamHilen: Applied effect Night Vision to InamHilen]
-[23:11:14] [Server thread/INFO]: InamHilen issued server command: /kit
-[23:11:17] [Server thread/INFO]: InamHilen has completed the challenge [Cover Me in Debris]
-[23:11:19] [Server thread/INFO]: InamHilen has made the advancement [Monster Hunter]
-[23:11:40] [Server thread/INFO]: InamHilen issued server command: /skin RubyHoshino
-[23:11:44] [Server thread/INFO]: InamHilen issued server command: /heal
-[23:11:48] [Server thread/INFO]: InamHilen issued server command: /feed
-[23:11:50] [Server thread/INFO]: InamHilen issued server command: /v
-[23:12:15] [Server thread/INFO]: InamHilen issued server command: /shop
-[23:12:38] [Server thread/INFO]: Shop >> InamHilen compró 46 x Tnt(Blocks.page1.items.11) para 4,902.68€ con el comprar pantalla.
-[23:13:43] [Server thread/INFO]: InamHilen issued server command: /deop InamHilen
-[23:13:43] [Server thread/INFO]: [InamHilen: Made InamHilen no longer a server operator]
-[23:15:11] [Craft Scheduler Thread - 144 - AdvancedBanX/INFO]: CUBECRAFT VULCAN » InamHilen El Baneo Se Completo Satisfactoriamente!
-[23:15:11] [Server thread/INFO]: InamHilen lost connection: CUBECRAFT VULCAN » Temporarily banned
+[20:30:36] [Server thread/INFO]: [SternalBoard] Enabling SternalBoard v2.3.2
+[20:30:36] [Server thread/INFO]: [INFO] Starting SternalBoard Plugin
+[20:30:36] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.22.5
+[20:30:36] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.22.5 Plugin Loading...
+[20:30:36] [Server thread/ERROR]: Cannot load plugins/CommandPanels/panels/modalidades.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
 
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.fileNamesFromDirectory(ReloadCommand.java:99) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.reloadPanelFiles(ReloadCommand.java:77) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.<init>(ReloadCommand.java:22) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.Context.init(Context.java:128) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.Context.<init>(Context.java:99) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.CommandPanels.onEnable(CommandPanels.java:23) ~[CommandPanels.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
 
-Reason » INTENTO DE GRIFEO
-Duration » 10dia(s) 0h 0minuto y 0segundos
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 21 more
+[20:30:36] [Server thread/ERROR]: Cannot load plugins/CommandPanels/panels/modalidades.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
 
-Unban application in TS or forum
-TS-Ip » coming soon
-Forum » coming soon
-[23:15:11] [Server thread/INFO]: [-] VIP+ InamHilen
-[23:15:27] [User Authenticator #3/INFO]: Disconnecting InamHilen (/127.126.221.222:41611): CUBECRAFT VULCAN » Temporarily banned
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.fileNamesFromDirectory(ReloadCommand.java:102) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.reloadPanelFiles(ReloadCommand.java:77) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.commands.ReloadCommand.<init>(ReloadCommand.java:22) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.Context.init(Context.java:128) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.Context.<init>(Context.java:99) ~[CommandPanels.jar:?]
+	at CommandPanels.jar/me.rockyhawk.commandpanels.CommandPanels.onEnable(CommandPanels.java:23) ~[CommandPanels.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:658) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:322) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-231-09e9afd]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 66, column 9:
+            material: END_STONE
+            ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 69, column 10:
+             commands:
+             ^
 
-
-Reason » INTENTO DE GRIFEO
-Duration » 9dia(s) 23h 59minuto y 44segundos
-
-Unban application in TS or forum
-TS-Ip » coming soon
-Forum » coming soon
-[23:15:27] [User Authenticator #3/INFO]: UUID of player InamHilen is 4c617bca-e997-337d-8ab1-e1c108567f0c
-[23:15:27] [Server thread/INFO]: InamHilen (/127.126.221.222:41611) lost connection: CUBECRAFT VULCAN » Temporarily banned
-
-
-Reason » INTENTO DE GRIFEO
-Duration » 9dia(s) 23h 59minuto y 44segundos
-
-Unban application in TS or forum
-TS-Ip » coming soon
-Forum » coming soon
-[23:15:59] [User Authenticator #3/INFO]: Disconnecting InamHilen (/127.126.221.222:55499): CUBECRAFT VULCAN » Temporarily banned
-
-
-Reason » INTENTO DE GRIFEO
-Duration » 9dia(s) 23h 59minuto y 13segundos
-
-Unban application in TS or forum
-TS-Ip » coming soon
-Forum » coming soon
-[23:15:59] [User Authenticator #3/INFO]: UUID of player InamHilen is 4c617bca-e997-337d-8ab1-e1c108567f0c
-[23:15:59] [Server thread/INFO]: InamHilen (/127.126.221.222:55499) lost connection: CUBECRAFT VULCAN » Temporarily banned
-
-
-Reason » INTENTO DE GRIFEO
-Duration » 9dia(s) 23h 59minuto y 13segundos
-
-Unban application in TS or forum
-TS-Ip » coming soon
-Forum » coming soon
-[23:16:16] [Craft Scheduler Thread - 146 - AdvancedBanX/INFO]: CUBECRAFT VULCAN » InamHilen was successfully unbanned!
-[23:16:20] [User Authenticator #3/INFO]: UUID of player InamHilen is 4c617bca-e997-337d-8ab1-e1c108567f0c
-[23:16:21] [TAB Processing Thread/INFO]: [TAB] [WARN] Player InamHilen's group (vip+) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.
-[23:16:21] [Server thread/INFO]: [EconomyShopGUI] [DEBUG]: Detected skin change of InamHilen, updating cached skin...
-[23:16:21] [Server thread/INFO]: InamHilen[/127.126.221.222:42705] logged in with entity id 6580 at ([world]959.0781893708111, -1.0, 391.60242863244724)
-[23:16:21] [Server thread/INFO]: [+] VIP+ InamHilen
-[23:17:08] [Server thread/INFO]: InamHilen issued server command: /floodgate:linkaccount
-[23:17:17] [Server thread/INFO]: InamHilen issued server command: /linkaccount InamHilen 23511
-[23:19:14] [Server thread/INFO]: Usage: mvtp [player] <destination> [--unsafe]
-[23:20:12] [Server thread/INFO]: Teleported InamHilen to w:hypixel.
-[23:21:20] [Server thread/INFO]: InamHilen was slain by Spider
-[23:21:37] [Server thread/INFO]: Teleported InamHilen to w:hypixel.
-[23:22:21] [Server thread/INFO]: InamHilen issued server command: /op
-[23:22:31] [Server thread/INFO]: Made InamHilen a server operator
-[23:22:37] [Server thread/INFO]: InamHilen issued server command: /fly
-[23:22:42] [Server thread/INFO]: InamHilen issued server command: //wand
-[23:22:51] [Server thread/INFO]: InamHilen issued server command: /flyspeed fly 5
-[23:23:10] [Server thread/INFO]: InamHilen issued server command: //up 0
-[23:23:18] [Server thread/INFO]: InamHilen issued server command: //up 0
-[23:23:18] [AsyncNotifyKeyedQueue - 1/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightStarlightRelighterFactory as relighter factory.
-[23:23:23] [Server thread/INFO]: InamHilen issued server command: /gm 1
-[23:23:51] [Server thread/INFO]: InamHilen issued server command: //up 0
-[23:24:10] [Server thread/INFO]: InamHilen issued server command: /rg delete
-[23:24:13] [Server thread/INFO]: InamHilen issued server command: /rg delete 1
-[23:24:19] [Server thread/INFO]: InamHilen issued server command: /rg delete -fu 1
-[23:24:24] [Server thread/INFO]: InamHilen issued server command: /rg delete hypixel 1
-[23:24:29] [Server thread/INFO]: InamHilen issued server command: /rg delete hypixel
-[23:24:40] [Server thread/INFO]: InamHilen issued server command: /mv create hypixel
-[23:24:55] [Server thread/INFO]: InamHilen issued server command: /rg create hypixel
-[23:24:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:25:09] [Server thread/INFO]: InamHilen issued server command: /rg flag hypixel
-[23:25:16] [Server thread/INFO]: InamHilen issued server command: /rg flag hypixel 1
-[23:25:32] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel block-break unable
-[23:25:40] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel block-break deny
-[23:25:51] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel tnt deny
-[23:25:58] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel use deny
-[23:25:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:26:04] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel wind-charge-burst deny
-[23:26:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:26:31] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel chest-access deny
-[23:26:50] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" hypixel block-trampling deny
-[23:26:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:27:14] [Server thread/INFO]: Made InamHilen no longer a server operator
-[23:28:01] [Server thread/INFO]: Made InamHilen a server operator
-[23:28:13] [Server thread/INFO]: Made InamHilen no longer a server operator
-[23:28:52] [Server thread/INFO]: /region <select|flag|migrateuuid|migrateheights|setpriority|teleport|save|flags|addowner|list|removeowner|remove|addmember|redefine|removemember|load|define|claim|toggle-bypass|setparent|info|migratedb>
-[23:29:03] [Server thread/INFO]: /region <select|flag|migrateuuid|migrateheights|setpriority|teleport|save|flags|addowner|list|removeowner|remove|addmember|redefine|removemember|load|define|claim|toggle-bypass|setparent|info|migratedb>
-[23:29:19] [Server thread/INFO]: Too few arguments.
-[23:29:19] [Server thread/INFO]: /region addowner [-n] <id> <owners...>
-[23:29:28] [Server thread/INFO]: Please specify the world with -w world_name.
-[23:29:51] [Server thread/INFO]: Please specify the world with -w world_name.
-[23:30:02] [Server thread/INFO]: No region could be found with the name of '1'.
-[23:30:10] [Server thread/INFO]: No region could be found with the name of '1'.
-[23:30:14] [Server thread/INFO]: Please specify the world with -w world_name.
-[23:30:28] [Server thread/INFO]: Made InamHilen a server operator
-[23:30:34] [Server thread/INFO]: InamHilen issued server command: /rg list
-[23:30:43] [Server thread/INFO]: InamHilen issued server command: /rg info -w "hypixel" hypixel
-[23:30:52] [Server thread/INFO]: InamHilen issued server command: /rg addowner -w "hypixel" hypixel InamHilen{
-[23:30:58] [Server thread/INFO]: InamHilen issued server command: /rg info -w "hypixel" hypixel
-[23:30:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:31:11] [Server thread/INFO]: InamHilen issued server command: /rg addowner -w "hypixel" hypixel Ruby_HoshinoSan
-[23:31:25] [Server thread/INFO]: Made InamHilen no longer a server operator
-[23:31:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:31:55] [Server thread/INFO]: Made InamHilen a server operator
-[23:32:08] [Server thread/INFO]: InamHilen issued server command: /rg bypass
-[23:32:15] [Server thread/INFO]: InamHilen issued server command: /rg bypass add
-[23:32:19] [Server thread/INFO]: InamHilen issued server command: /rg bypass on
-[23:32:32] [Server thread/INFO]: Made InamHilen no longer a server operator
-[23:32:45] [Server thread/INFO]: Made InamHilen a server operator
-[23:34:46] [Server thread/INFO]: InamHilen issued server command: /mv create hypixel_nether nether
-[23:34:47] [Server thread/INFO]: Preparing start region for dimension minecraft:hypixel_nether
-[23:34:47] [Server thread/INFO]: Preparing spawn area: 2%
-[23:34:48] [Server thread/INFO]: Preparing spawn area: 2%
-[23:34:48] [Server thread/INFO]: Preparing spawn area: 20%
-[23:34:49] [Server thread/INFO]: Preparing spawn area: 57%
-[23:34:49] [Server thread/INFO]: Time elapsed: 1769 ms
-[23:34:49] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[23:34:49] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) TNT ignition is PERMITTED.
-[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) Lighters are PERMITTED.
-[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) Lava fire is PERMITTED.
-[23:34:49] [Server thread/INFO]: [WorldGuard] (hypixel_nether) Fire spread is UNRESTRICTED.
-[23:34:49] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hypixel_nether'
-[23:34:49] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
-[23:34:49] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 66 Z: 0 P: 0 Y: 0 
-[23:34:49] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'hypixel_nether' is located at: hypixel_nether:0.00,128.00,0.00:0.00:0.00
-[23:34:52] [Server thread/INFO]: InamHilen has made the advancement [We Need to Go Deeper]
-[23:35:16] [Server thread/INFO]: InamHilen fell from a high place
-[23:35:25] [Server thread/INFO]: InamHilen issued server command: /mv tp hypixel
-[23:35:55] [Server thread/INFO]: InamHilen issued server command: /fly
-[23:36:10] [Server thread/INFO]: InamHilen issued server command: /skin Hylen
-[23:36:23] [Server thread/INFO]: InamHilen issued server command: /mv delete hypixel_nether
-[23:36:30] [Server thread/INFO]: InamHilen issued server command: /mv confirm 829
-[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hypixel_nether'
-[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hypixel_nether'
-[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hypixel_nether'
-[23:36:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hypixel_nether'
-[23:36:50] [Server thread/INFO]: InamHilen issued server command: /rg flags
-[23:37:22] [Server thread/INFO]: InamHilen issued server command: /rg flags -w "hypixel" -p 2 hypixel
-[23:37:29] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-drop DENY
-[23:37:30] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-pickup DENY
-[23:37:34] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel mob-damage DENY
-[23:37:36] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel exp-drops DENY
-[23:37:36] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel creeper-explosion DENY
-[23:37:39] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel enderdragon-block-damage DENY
-[23:37:40] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel ghast-fireball DENY
-[23:37:41] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel other-explosion DENY
-[23:37:43] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel breeze-charge-explosion DENY
-[23:37:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel wither-damage DENY
-[23:37:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel snowman-trails DENY
-[23:37:45] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel enderman-grief DENY
-[23:37:49] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-frame-rotation ALLOW
-[23:37:51] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel item-frame-rotation DENY
-[23:37:54] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel firework-damage DENY
-[23:37:56] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel use-anvil DENY
-[23:37:56] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 2 hypixel use-dripleaf DENY
-[23:37:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:38:00] [Server thread/INFO]: InamHilen issued server command: /rg flags 2
-[23:43:40] [Server thread/INFO]: InamHilen issued server command: /rg flags -w "hypixel" -p 3 hypixel
-[23:43:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ravager-grief DENY
-[23:43:44] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel entity-painting-destroy DENY
-[23:43:45] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel entity-item-frame-destroy DENY
-[23:43:46] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel mob-spawning DENY
-[23:43:56] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel deny-spawn
-[23:43:59] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:44:06] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel deny-spawn hostile
-[23:44:10] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel pistons DENY
-[23:44:12] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel fire-spread DENY
-[23:44:13] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel lava-fire DENY
-[23:44:13] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel lightning DENY
-[23:44:14] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel snow-fall DENY
-[23:44:15] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-form DENY
-[23:44:15] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-form 
-[23:44:16] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel snow-melt DENY
-[23:44:16] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-melt DENY
-[23:44:17] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel ice-form DENY
-[23:44:18] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel frosted-ice-melt DENY
-[23:44:19] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel frosted-ice-form DENY
-[23:44:19] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel mushroom-growth DENY
-[23:44:20] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel leaf-decay DENY
-[23:44:21] [Server thread/INFO]: InamHilen issued server command: /rg flag -w "hypixel" -h 3 hypixel grass-growth DENY
-[23:44:23] [Server thread/INFO]: InamHilen issued server command: /rg flags -w "hypixel" -p 4 hypixel
-[23:44:29] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'hypixel' have been background saved
-[23:45:43] [Server thread/INFO]: InamHilen issued server command: /difficulty peaceful
-[23:45:43] [Server thread/INFO]: [InamHilen: The difficulty has been set to Peaceful]
-[23:46:01] [Server thread/INFO]: InamHilen issued server command: /rg list
-[23:46:04] [Server thread/INFO]: InamHilen issued server command: /rg info -w "hypixel" hypixel
-[23:46:24] [Server thread/INFO]: InamHilen issued server command: /rg tp -c -w "hypixel" hypixel
-[23:46:27] [Server thread/INFO]: InamHilen issued server command: /rg tp -c -w "hypixel" hypixel
-[23:46:35] [Server thread/INFO]: InamHilen issued server command: /rg setspawn
-[23:47:41] [Server thread/INFO]: InamHilen issued server command: /skin AiHoshino
-[23:47:54] [Server thread/INFO]: InamHilen issued server command: /skin AquaHoshino
-[23:48:06] [Server thread/INFO]: InamHilen issued server command: /skin AquamarineHoshino
-[23:48:18] [Server thread/INFO]: InamHilen issued server command: /skin HoshinoAqua
-[23:49:40] [Server thread/INFO]: InamHilen lost connection: Disconnected
-[23:49:40] [Server thread/INFO]: [-] VIP+ InamHilen
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	... 21 more
+[20:30:36] [Server thread/INFO]: Error in file: modalidades.yml
+[20:30:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[20:30:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[20:30:36] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'CommandPanels' to create a bStats instance!
+[20:30:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: commandpanels [3.22.5]
+[20:30:36] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.22.5 Plugin Loaded!
+[20:30:36] [Server thread/INFO]: [Tebex] Enabling Tebex v2.2.1
+[20:30:36] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.14.4
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-es.yml as language file
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carga completada 16 configuraciones de la sección de /secciones/
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completada la carga de la configuración de 16 tiendas desde /shops/
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Actualizando la configuración de la tienda...
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Se completó la carga de 1 proveedor(es) de economía para todas las 14 secciones de tiendas.
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando minecraft versión 1.21.4...
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Proveedor spawner establecido en AUTO en la configuración
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[20:30:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: El modo de depuración está habilitado.
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Cargando todos los elementos...
+[20:30:37] [OkHttp https://plugin.tebex.io/.../INFO]: [Tebex] Connected to Minecraft Server - Minecraft: Java Edition server.
+[20:30:37] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Iniciado - Tomó 763ms para completar
+[20:30:37] [Server thread/INFO]: [zMenu] Enabling zMenu v1.1.0.2
+[20:30:37] [Server thread/INFO]: [zMenu v1.1.0.2] === ENABLE START ===
+[20:30:37] [Server thread/INFO]: [zMenu v1.1.0.2] Plugin Version V1.1.0.2
+[20:30:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: zmenu [1.1.0.2]
+[20:30:37] [Server thread/INFO]: [zMenu] The database connection is valid ! (SQLITE)
+[20:30:37] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Hay una actualización disponible para EconomyShopGUI, estás corriendo la versión 6.14.4 pero se encontró la versión 6.14.5.
+[20:30:37] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[20:30:37] [Server thread/INFO]: [zMenu] Use ComponentMeta
+[20:30:37] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] Command /basic_command successfully register.
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] Command /advanced_command successfully register.
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] Command /pro_command successfully register.
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] Command /openbook successfully register.
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] 
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] You can support zMenu by upgrading your account here: https://minecraft-inventory-builder.com/account-upgrade
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] zMenu’s site includes an inventory editor (under development), a marketplace (already available) is a forum (under development)
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] 
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] Loading 6 commands
+[20:30:38] [Server thread/INFO]: [zMenu v1.1.0.2] === ENABLE DONE (513ms) ===
+[20:30:38] [Server thread/INFO]: [TAB] Enabling TAB v5.2.4
+[20:30:38] [Server thread/INFO]: [TAB] Enabled in 214ms
+[20:30:38] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v5.0.1
+[20:30:38] [Server thread/INFO]: [Multiverse-SignPortals 5.0.1]  Enabled - By Rigby and fernferret
+[20:30:39] [Server thread/INFO]: [spark] Starting background profiler...
+[20:30:39] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:30:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:30:40] [Server thread/INFO]: [Geyser-Spigot] 
+[20:30:40] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.3-b912 (git-master-dc5fc8f)
+[20:30:40] [Server thread/INFO]: [Geyser-Spigot] 
+[20:30:40] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:30:43] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 2549
+[20:30:43] [Server thread/INFO]: [Geyser-Spigot] Done (2.999s)! Run /geyser help for help!
+[20:30:43] [Server thread/INFO]: Done preparing level "world" (17.392s)
+[20:30:43] [Server thread/INFO]: Running delayed init tasks
+[20:30:43] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:30:43] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[20:30:43] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:30:43] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[20:30:43] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[20:30:43] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:30:43] [Server thread/INFO]: [CommandPanels] Error in: modalidades.yml
+[20:30:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[20:30:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[20:30:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[20:30:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[20:30:43] [Server thread/INFO]: 4 placeholder hook(s) registered!
+[20:30:43] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[20:30:43] [Server thread/INFO]: Checking for conflicts in groups...
+[20:30:43] [Server thread/INFO]: No group conflicts found!
+[20:30:43] [Server thread/INFO]: Done (53.163s)! For help, type "help"
+[20:30:43] [Craft Scheduler Thread - 15 - Vault/INFO]: [Vault] No new version available
+[20:30:43] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] You're 26 EssentialsX dev build(s) out of date!
+[20:30:43] [Craft Scheduler Thread - 4 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[20:30:43] [Craft Scheduler Thread - 13 - zMenu/INFO]: [zMenu v1.1.0.2] No update available.
+[20:31:52] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/zmenu download https://zmenu.dev/d/779<--[HERE]
+[20:31:59] [Server thread/INFO]: Unknown or incomplete command, see below for error
+/pl<--[HERE]
+[20:32:01] [Server thread/INFO]: ℹ Server Plugins (27):
+[20:32:01] [Server thread/INFO]: Paper Plugins (1):
+[20:32:01] [Server thread/INFO]:  - EconomyShopGUI
+[20:32:01] [Server thread/INFO]: Bukkit Plugins (26):
+[20:32:01] [Server thread/INFO]:  - AdvancedBanX, CommandPanels, Essentials, EssentialsChat, EssentialsSpawn, FastAsyncWorldEdit, floodgate, Geyser-Spigot, LuckPerms, Multiverse-Core
+[20:32:01] [Server thread/INFO]:  Multiverse-Inventories, Multiverse-NetherPortals, Multiverse-Portals, Multiverse-SignPortals, PlaceholderAPI, PlayerKits2, ProtectionStones, SkinsRestorer, SternalBoard, TAB
+[20:32:01] [Server thread/INFO]:  Tebex, Vault, ViaBackwards, ViaVersion, WorldGuard, zMenu
+[20:32:10] [Server thread/INFO]: (zMenu) Start downloading inventory, please wait.
+[20:32:11] [Craft Scheduler Thread - 4 - zMenu/INFO]: (zMenu) The link is not a yml file.
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/patterns/pattern_example.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/pro_inventory.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/switch.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/playtimes.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/examples/cookies.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/Rank.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/example_punish.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/basic_inventory.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/inventories/advanced_inventory.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] plugins/zMenu/website/inventories.yml loaded successfully !
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] Command /punish successfully register.
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] Command /rangos successfully register.
+[20:38:13] [Server thread/INFO]: [zMenu v1.1.0.2] Command /advanced_command successfully register.
+[20:38:13] [Server thread/INFO]: (zMenu) You have just reloaded the configuration files. (9 inventories)

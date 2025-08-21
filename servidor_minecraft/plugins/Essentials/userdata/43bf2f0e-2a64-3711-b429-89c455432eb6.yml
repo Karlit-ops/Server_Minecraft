@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1755731109634
-  login: 1755730727683
+  logout: 1755741080317
+  login: 1755738822008
   kits:
     color: 1755730040795
 money: '20989.19000000000002'
@@ -25,11 +25,11 @@ last-account-name: Ruby_HoshinoSan
 logoutlocation:
   world: a837b9bc-2aac-4b3f-a6cd-72bf40fb5b98
   world-name: hypixel
-  x: -53.11013558606898
-  y: 95.0
-  z: -3.323055933260082
-  yaw: -41.849365234375
-  pitch: 55.6500129699707
+  x: -52.5
+  y: 96.0
+  z: 0.5
+  yaw: -77.3993911743164
+  pitch: 5.999970436096191
 lastlocation:
   world: 0b5443e8-281b-4691-94ac-9bf342f6f7e2
   world-name: world

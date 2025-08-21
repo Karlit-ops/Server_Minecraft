@@ -1,0 +1,31 @@
+name: Rank
+size: 27
+items:
+  Ranks:
+    slot: 10
+    item:
+      material: GLOWSTONE
+      name: Premium
+    actions:
+      -
+        type: message
+        messages:
+          - '(spieler) hat PREMIUM gekauft'
+        mini-message: true
+  btn-12:
+    slot: 12
+    item:
+      material: GOLD_BLOCK
+      name: VIP
+  btn-14:
+    slot: 14
+    item:
+      material: LAPIS_BLOCK
+      name: Suprem
+  btn-16:
+    slot: 16
+    item:
+      material: AIR
+      name: CYBERCB
+      lore:
+        - CYBERCB
