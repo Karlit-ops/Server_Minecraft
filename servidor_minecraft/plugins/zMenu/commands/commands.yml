@@ -65,7 +65,7 @@ commands:
 commands:
   Rank:
     command: rangos
-    inventory: Ranks
+    inventory: Rank
     permission: "zmenu.ranks"
     aliases:
       - ranks
